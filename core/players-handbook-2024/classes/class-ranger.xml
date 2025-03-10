@@ -11,7 +11,20 @@
 
 	<element name="Ranger" type="Class" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_RANGER">
 		<description>
-			<p class="flavor">Far from bustling cities, amid the trees of trackless forests and across wide plains, Rangers keep their unending watch in the wilderness. Rangers learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Thanks to their connection with nature, Rangers can also cast spells that harness primal powers of the wilderness. A Ranger's talents and magic are honed with deadly focus to protect the world from the ravages of monsters and tyrants.</p>
+			<p class="flavor">Far from bustling cities, amid the trees of trackless forests and across wide plains, Rangers keep their unending watch in the wilderness. Rangers learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble.</p>
+			<p class="indent">Thanks to their connection with nature, Rangers can also cast spells that harness primal powers of the wilderness. A Ranger's talents and magic are honed with deadly focus to protect the world from the ravages of monsters and tyrants.</p>
+			<div class="sidebar">
+				<h5>CORE PALADIN TRAITS</h5>
+				<table>
+					<tr><td><b>Primary Ability</b></td><td>Strength and Charisma</td></tr>
+					<tr><td><b>Hit Point Die</b></td><td>1d10 per Paladin level</td></tr>
+					<tr><td><b>Saving Throw Proficiencies</b></td><td>Wisdom and Charisma</td></tr>
+					<tr><td><b>Skills Proficiencies</b></td><td><i>Choose 2:</i> Athletics, Insight, Intimidation, Medicine, Persuasion, or Religion</td></tr>
+					<tr><td><b>Weapon Proficiencies</b></td><td>Simple and Martial weapons</td></tr>
+					<tr><td><b>Armor Training</b></td><td>Light, Medium and Heavy armor and Shields</td></tr>
+					<tr><td><b>Starting Equipment</b></td><td><i>Choose A or B:</i> (A) Chain Mail, Shield, Longsword, 6 Javelins, Holy Symbol, Priest's Pack, and 9 GP; or (B) 150 GP</td></tr>
+				</table>
+			</div>
 			<h4>BECOMING A RANGER...</h4>
 			<h5>AS A LEVEL 1 CHARACTER</h5>
 			<ul>
@@ -23,21 +36,7 @@
 				<li>Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.</li>
 				<li>Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li>
 			</ul>
-			<!-- -->
-			<h5>CORE RANGER TRAITS</h5>
-			<table>
-				<tr><td><b>Primary Ability</b></td><td>Dexterity and Wisdom</td></tr>
-				<tr><td><b>Hit Point Die</b></td><td>1d10 per ranger level</td></tr>
-				<tr><td><b>Saving Throw Proficiencies</b></td><td>Strength and Dexterity</td></tr>
-				<tr><td><b>Skills Proficiencies</b></td><td><i>Choose 3:</i> Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</td></tr>
-				<tr><td><b>Weapon Proficiencies</b></td><td>Simple and Martial weapons</td></tr>
-				<tr><td><b>Armor Training</b></td><td>Light and Medium armor and Shields</td></tr>
-				<tr><td><b>Starting Equipment</b></td><td><i>Choose A or B:</i> (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer's Pack, and 7 CP; or (B) 150 GP</td></tr>
-			</table>
-			<!-- -->
-			<h3>CLASS FEATURES</h3>
-			<p>As a Ranger, you gain the following class features when you reach the specified Ranger levels. These features are listed in the Ranger Features table.</p>
-			<h5 class="caption">RANGER FEATURES</h5>
+			<h5>RANGER FEATURES</h5>
 			<table class="class-features">
 				<thead>
 					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Favored Enemy</td><td class="col-10">Prepared Spells</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
@@ -63,6 +62,8 @@
 				<tr><td>19th</td><td class="left">Epic Boon</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 				<tr><td>20th</td><td class="left">Foe Slayer</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 			</table>
+			<h4>RANGER CLASS FEATURES</h4>
+			<p>As a Ranger, you gain the following class features when you reach the specified Ranger levels. These features are listed in the Ranger Features table.</p>
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_SPELLCASTING" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FAVORED_ENEMY" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_RANGER_WEAPON_MASTERY" />
@@ -129,7 +130,7 @@
 				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
 				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
 				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
-				<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="1"/>
+				<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger"/>
 			</rules>
 		</multiclass>
 	</element>
