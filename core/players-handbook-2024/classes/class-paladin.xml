@@ -27,13 +27,13 @@
 				</table>
 			</div>
 			<h4>BECOMING A PALADIN...</h4>
-			<h5>AS A LEVEL 1 CHARACTER</h5>
-			<ul>
+			<h5 style="margin-top:-2em">AS A LEVEL 1 CHARACTER</h5>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
 				<li>Gain all the traits in the Core Paladin Traits table. </li>
 				<li>Gain the Paladin's level 1 features, which are listed in the Paladin Features table.</li>
 			</ul>
-			<h5>AS A MULTICLASS CHARACTER</h5>
-			<ul>
+			<h5 style="margin-top: 0px">AS A MULTICLASS CHARACTER</h5>
+			<ul style="margin-top:-1em">
 				<li>Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.</li>
 				<li>Gain the Paladin's level 1 features, which are listed in the Paladin Features table. See the multiclassing rules in chapter 2 to determine your available spell slots.</li>
 			</ul>
@@ -41,28 +41,28 @@
 			<h5>PALADIN FEATURES</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Channel Divinity</td><td class="col-10">Prepared Spells</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+					<tr><td class="col-5">Level</td><td>Proficiency Bonus</td><td class="col-50 left">Class Features</td><td class="col-10">Channel Divinity</td><td class="col-10">Prepared Spells</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Lay On Hands, Spellcasting, Weapon Mastery</td><td>—</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 2nd</td><td class="left">Fighting Style, Paladin's Smite</td><td>—</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 3rd</td><td class="left">Channel Divinity, Paladin Subclass</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5th</td><td class="left">Extra Attack, Faithful Steed</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6th</td><td class="left">Aura of Protection</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7th</td><td class="left">Subclass feature</td><td>2</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>2</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 9th</td><td class="left">Abjure Foes</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>10th</td><td class="left">Aura of Courage</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
-				<tr><td>11th</td><td class="left">Radiant Strikes</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
-				<tr><td>13th</td><td class="left">—</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>14th</td><td class="left">Restoring Touch</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
-				<tr><td>15th</td><td class="left">Subclass feature</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
-				<tr><td>17th</td><td class="left">—</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>18th</td><td class="left">Aura Expansion</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
-				<tr><td>19th</td><td class="left">Epic Boon</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
-				<tr><td>20th</td><td class="left">Subclass feature</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td> 1st</td><td>2</td><td class="left">Lay On Hands, Spellcasting, Weapon Mastery</td><td>—</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td>2</td><td class="left">Fighting Style, Paladin's Smite</td><td>—</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td>2</td><td class="left">Channel Divinity, Paladin Subclass</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td>2</td><td class="left">Ability Score Improvement</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td>3</td><td class="left">Extra Attack, Faithful Steed</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td>3</td><td class="left">Aura of Protection</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td>3</td><td class="left">Subclass feature</td><td>2</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td>3</td><td class="left">Ability Score Improvement</td><td>2</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td>4</td><td class="left">Abjure Foes</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td>4</td><td class="left">Aura of Courage</td><td>2</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td>4</td><td class="left">Radiant Strikes</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td>4</td><td class="left">Ability Score Improvement</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td>5</td><td class="left">—</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>14th</td><td>5</td><td class="left">Restoring Touch</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>15th</td><td>5</td><td class="left">Subclass feature</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16th</td><td>5</td><td class="left">Ability Score Improvement</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>17th</td><td>6</td><td class="left">—</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>18th</td><td>6</td><td class="left">Aura Expansion</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>19th</td><td>6</td><td class="left">Epic Boon</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>20th</td><td>6</td><td class="left">Subclass feature</td><td>3</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
 			</table>
 			<h4>PALADIN CLASS FEATURES</h4>
 			<p>As a Paladin, you gain the following class features when you reach the specified Paladin levels. These features are listed in the Paladin Features table.</p>
@@ -72,7 +72,7 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADINS_SMITE" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_CHANNEL_DIVINITY" />
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADIN_ARCHETYPE" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADIN_SUBCLASS" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_ASI" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_EXTRA_ATTACK" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FAITHFUL_STEED" />
@@ -84,22 +84,20 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_AURA_EXPANSION" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_EPIC_BOON" />
 		</description>
-		<sheet display="false">
-			<description>A Devout Warrior of Sacred Oaths.</description>
-		</sheet>
+		<sheet display="false"/>
 		<setters>
 			<set name="short">A Devout Warrior of Sacred Oaths</set>
 			<set name="hd">d10</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB24_MULTICLASS_PALADIN" />
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB24_MULTICLASS_PALADIN" />
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_WOTC_PHB24_MULTICLASS_PALADIN" />
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB24_MULTICLASS_PALADIN" />
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_PALADIN" />
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_PALADIN" />
+			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_PALADIN, ID_WOTC_SOURCE_PLAYERS_HANDBOOK" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB24_MULTICLASS_PALADIN, ID_WOTC_SOURCE_PLAYERS_HANDBOOK" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="ID_WOTC_SOURCE_PLAYERS_HANDBOOK" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB24_MULTICLASS_PALADIN" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB24_MULTICLASS_PALADIN" />
 			<select type="Proficiency" name="Skill Proficiency (Paladin)" supports="Skill,Paladin" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_PALADIN" />
@@ -109,7 +107,7 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADINS_SMITE" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_CHANNEL_DIVINITY" level="3"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADIN_ARCHETYPE" level="3"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADIN_SUBCLASS" level="3"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_ASI" level="4"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_EXTRA_ATTACK" level="5"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FAITHFUL_STEED" level="5"/>
@@ -129,15 +127,11 @@
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
-				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
-				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
-				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
-				<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
 			</rules>
 		</multiclass>
 	</element>
 	<element name="Level 1: Spellcasting" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_SPELLCASTING">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_SPELLCASTING</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_SPELLCASTING</requirements>
 		<description>
 			<p>You have learned to cast spells through prayer and meditation. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Paladin spells, which appear in the Paladin spell list later in the class's description.</p>
 			<p class="indent"><b>Spell Slots.</b> The Paladin Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p>
@@ -188,7 +182,7 @@
 		</rules>
 	</element>
 	<element name="Level 1: Lay On Hands" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_LAY_ON_HANDS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_LAY_ON_HANDS</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_LAY_ON_HANDS</requirements>
 		<description>
 			<p>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest, With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.</p>
 			<p class="indent">As a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.</p>
@@ -207,7 +201,7 @@
 		</rules>
 	</element>
 	<element name="Level 1: Weapon Mastery" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_WEAPON_MASTERY">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_WEAPON_MASTERY</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_WEAPON_MASTERY</requirements>
 		<description>
 			<p>Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.</p>
 			<p class="indent">Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.</p>
@@ -220,7 +214,7 @@
 		</rules>
 	</element>
 	<element name="Level 2: Paladin's Smite" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADINS_SMITE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_PALADINS_SMITE</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_PALADINS_SMITE</requirements>
 		<description>
 			<p>You always have the <i>Divine Smite</i> spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</p>
 		</description>
@@ -232,12 +226,11 @@
 		</rules>
 	</element>
 	<element name="Level 2: Fighting Style" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_FIGHTING_STYLE</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_FIGHTING_STYLE</requirements>
 		<description>
-			<p>You gain a Fighting Style feat of your choice (see chapter 5). Instead of choosing one of those feats, you can choose the option below.</p>
-			<div class="reference">
-				<div element="ID_WOTC_PHB24_FEAT_BLESSED_WARRIOR" />
-			</div>
+			<p>You gain a Fighting Style feat of your choice. Instead of choosing one of those feats, you can choose the option below.</p>
+			<p class="indent"><b><i>Blessed Warrior.</i></b> You learn two Cleric cantrips of your choice. Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.</p>
+
 		</description>
 		<sheet display="false"/>
 		<rules>
@@ -250,7 +243,7 @@
 		<supports>Fighting Style</supports>
 		<prerequisite>Paladin Fighting Style Feature, Fighting Style Feat</prerequisite>
 		<description>
-			<p>You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip</p>
+			<p>You learn two Cleric cantrips of your choice. Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.</p>
 		</description>
 		<sheet>
 			<description>You learn two Cleric cantrips of your choice. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.</description>
@@ -261,7 +254,7 @@
 	</element>
 	<!---->
 	<element name="Level 3: Channel Divinity" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_CHANNEL_DIVINITY">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_CHANNEL_DIVINITY</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_CHANNEL_DIVINITY</requirements>
 		<description>
 			<p>You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class’s Channel Divinity, you choose which effect from this class to create.</p>
 			<p class="indent">You can use this class’s Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.</p>
@@ -285,10 +278,10 @@
 			<description>You can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the incapacitated condition, you know the location of any creature of those types within 60ft of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated.</description>
 		</sheet>
 	</element>
-	<element name="Level 3: Paladin Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADIN_ARCHETYPE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_ARCHETYPE</requirements>
+	<element name="Level 3: Paladin Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_PALADIN_SUBCLASS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_SUBCLASS</requirements>
 		<description>
-			<p>You gain a Paladin subclass of your choice. The Oath of Devotion. Oath of Glory, Oath of the Ancients, and Oath of Vengeance subclasses are detailed after this class's description. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.</p>
+			<p>You gain a Paladin subclass of your choice. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -296,32 +289,30 @@
 		</rules>
 	</element>
 	<element name="Level 4: Ability Score Improvement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_ASI">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_ASI</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_ASI</requirements>
 		<description>
-			<p>You gain the Ability Score Improvement feat (see chapter 5) or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16.</p>
+			<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16.</p>
 		</description>
 		<sheet alt="Ability Score Improvement" display="false" />
 		<rules>
-			<select type="Feat" name="Ability Score Improvement (Paladin 4)" supports="!Boon" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Paladin 4)" supports="!Boon" />
 			<select type="Feat" name="Ability Score Improvement (Paladin 8)" supports="!Boon" level="8" />
 			<select type="Feat" name="Ability Score Improvement (Paladin 12)" supports="!Boon" level="12" />
 			<select type="Feat" name="Ability Score Improvement (Paladin 16)" supports="!Boon" level="16" />
 		</rules>
 	</element>
 	<element name="Level 5: Extra Attack" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_EXTRA_ATTACK">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_EXTRA_ATTACK</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_EXTRA_ATTACK</requirements>
 		<description>
 			<p>You can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
 		</description>
-		<sheet alt="Extra Attack">
-			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
-		</sheet>
+		<sheet display="false" />
 		<rules>
-			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+			<stat name="extra attack:count" value="2" bonus="extra attack" />
 		</rules>
 	</element>
 	<element name="Level 5: Faithful Steed" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FAITHFUL_STEED">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_FAITHFUL_STEED</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_FAITHFUL_STEED</requirements>
 		<description>
 			<p>You can call on the aid of an otherworldly steed.</p>
 			<p>You always have the <i>Find Steed</i> spell prepared.</p>
@@ -335,7 +326,7 @@
 		</rules>
 	</element>
 	<element name="Level 6: Aura of Protection" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_AURA_OF_PROTECTION</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_AURA_OF_PROTECTION</requirements>
 		<description>
 			<p>You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the Incapacitated condition.</p>
 			<p class="indent">You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).</p>
@@ -348,16 +339,10 @@
 			<stat name="aura of protection:range" value="10" bonus="base" />
 			<stat name="aura of protection:save bonus" value="1" bonus="base"/>
 			<stat name="aura of protection:save bonus" value="charisma:modifier" bonus="base"/>
-	<!--	<stat name="strength:save:misc" value="aura of protection:save bonus"/>
-			<stat name="dexterity:save:misc" value="aura of protection:save bonus"/>
-			<stat name="constitution:save:misc" value="aura of protection:save bonus"/>
-			<stat name="wisdom:save:misc" value="aura of protection:save bonus"/>
-			<stat name="charisma:save:misc" value="aura of protection:save bonus"/>
-			<stat name="intelligence:save:misc" value="aura of protection:save bonus"/> -->
 		</rules>
 	</element>
 	<element name="Level 9: Abjure Foes" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_ABJURE_FOES">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_ABJURE_FOES</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_ABJURE_FOES</requirements>
 		<description>
 			<p>As a Magic action, you can expend one use of this class’s Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the Frightened condition for1minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.</p>
 		</description>
@@ -370,7 +355,7 @@
 		</rules>
 	</element>
 	<element name="Level 10: Aura of Courage" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_AURA_OF_COURAGE</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_AURA_OF_COURAGE</requirements>
 		<description>
 			<p>You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.</p>
 		</description>
@@ -379,7 +364,7 @@
 		</sheet>
 	</element>
 	<element name="Level 11: Radiant Strikes" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_RADIANT_STRIKES">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_RADIANT_STRIKES</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_RADIANT_STRIKES</requirements>
 		<description>
 			<p>Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.</p>
 		</description>
@@ -388,7 +373,7 @@
 		</sheet>
 	</element>
 	<element name="Level 14: Restoring Touch" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_RESTORING_TOUCH">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_RESTORING_TOUCH</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_RESTORING_TOUCH</requirements>
 		<description>
 			<p>When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded,Charmed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay On Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature.</p>
 		</description>
@@ -397,7 +382,7 @@
 		</sheet>
 	</element>
 	<element name="Level 18: Aura Expansion" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_AURA_EXPANSION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_AURA_EXPANSION</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_PHB24_REPLACEMENT_PALADIN_AURA_EXPANSION</requirements>
 		<description>
 			<p>Your Aura of Protection is now a 30-foot Emanation.</p>
 		</description>
@@ -407,9 +392,9 @@
 		</rules>
 	</element>
 	<element name="Level 19: Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_EPIC_BOON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_EPIC_BOON</requirements>
+		<requirements>!ID_INTERNAL_FEATURE_PHB24_REPLACEMENT_PALADIN_EPIC_BOON</requirements>
 		<description>
-			<p>You gain an Epic Boon feat (see chapter 5) or another feat of your choice for which you qualify. Boon of Truesight is recommended.</p>
+			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Truesight is recommended.</p>
 		</description>
 		<sheet alt="Epic Boon" display="false"/>
 		<rules> 
@@ -418,22 +403,22 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Favored Enemy Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_LAY_ON_HANDS" />
-	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_SPELLCASTING" />
-	<element name="Weapon Mastery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_WEAPON_MASTERY" />
-	<element name="Paladin's Smite Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_PALADINS_SMITE" />
-	<element name="Fighting Style Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_FIGHTING_STYLE" />
-	<element name="Channel Divinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_CHANNEL_DIVINITY" />
-	<element name="Paladin Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_ARCHETYPE" />
-	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_ASI" />
-	<element name="Extra Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_EXTRA_ATTACK" />
-	<element name="Faithful Steed Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_FAITHFUL_STEED" />
-	<element name="Aura of Protection Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_AURA_OF_PROTECTION" />
-	<element name="Abjure Foes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_ABJURE_FOES" />
-	<element name="Aura of Courage Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_AURA_OF_COURAGE" />
-	<element name="Radiant Strikes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_RADIANT_STRIKES" />
-	<element name="Restoring Touch Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_RESTORING_TOUCH" />
-	<element name="Aura Expansion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_AURA_EXPANSION" />
-	<element name="Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_EPIC_BOON" />
+	<element name="Favored Enemy Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_LAY_ON_HANDS" />
+	<element name="Spellcasting Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_SPELLCASTING" />
+	<element name="Weapon Mastery Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_WEAPON_MASTERY" />
+	<element name="Paladin's Smite Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_PALADINS_SMITE" />
+	<element name="Fighting Style Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_FIGHTING_STYLE" />
+	<element name="Channel Divinity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_CHANNEL_DIVINITY" />
+	<element name="Paladin Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_ARCHETYPE" />
+	<element name="Ability Score Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_ASI" />
+	<element name="Extra Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_EXTRA_ATTACK" />
+	<element name="Faithful Steed Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_FAITHFUL_STEED" />
+	<element name="Aura of Protection Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_AURA_OF_PROTECTION" />
+	<element name="Abjure Foes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_ABJURE_FOES" />
+	<element name="Aura of Courage Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_AURA_OF_COURAGE" />
+	<element name="Radiant Strikes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_RADIANT_STRIKES" />
+	<element name="Restoring Touch Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_RESTORING_TOUCH" />
+	<element name="Aura Expansion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_AURA_EXPANSION" />
+	<element name="Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_EPIC_BOON" />
 
 </elements>
