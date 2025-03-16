@@ -320,7 +320,7 @@
 		</description>
 	</element>
 
-	<element name="Quarterstaff (Topple)" type="Class Feature" source="Internal" id="ID_WOTC_PHB24_CLASS_FEATURE_WPM_QUARTERSTAFF_TOPPLE">
+	<element name="Quarterstaff (Topple)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WPM_QUARTERSTAFF_TOPPLE">
 		<compendium display="false" />
 		<supports>Weapon Mastery</supports>
 		<requirements>ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF</requirements>
@@ -331,7 +331,7 @@
 			<description>If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 + the ability modifier used to make the attack roll and your PB). On a failed save, the creature has the Prone condition.</description>
 		</sheet>
 	</element>
-	<element name="Battleaxe (Topple)" type="Class Feature" source="Internal" id="ID_WOTC_PHB24_CLASS_FEATURE_WPM_BATTLEAXE_TOPPLE">
+	<element name="Battleaxe (Topple)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WPM_BATTLEAXE_TOPPLE">
 		<compendium display="false" />
 		<supports>Weapon Mastery</supports>
 		<requirements>ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE</requirements>
@@ -342,7 +342,7 @@
 			<description>If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 + the ability modifier used to make the attack roll and your PB). On a failed save, the creature has the Prone condition.</description>
 		</sheet>
 	</element>
-	<element name="Lance (Topple)" type="Class Feature" source="Internal" id="ID_WOTC_PHB24_CLASS_FEATURE_WPM_LANCE_TOPPLE">
+	<element name="Lance (Topple)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WPM_LANCE_TOPPLE">
 		<compendium display="false" />
 		<supports>Weapon Mastery</supports>
 		<requirements>ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_LANCE</requirements>
@@ -353,7 +353,7 @@
 			<description>If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 + the ability modifier used to make the attack roll and your PB). On a failed save, the creature has the Prone condition.</description>
 		</sheet>
 	</element>
-	<element name="Maul (Topple)" type="Class Feature" source="Internal" id="ID_WOTC_PHB24_CLASS_FEATURE_WPM_MAUL_TOPPLE">
+	<element name="Maul (Topple)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WPM_MAUL_TOPPLE">
 		<compendium display="false" />
 		<supports>Weapon Mastery</supports>
 		<requirements>ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MAUL</requirements>
@@ -364,7 +364,7 @@
 			<description>If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 + the ability modifier used to make the attack roll and your PB). On a failed save, the creature has the Prone condition.</description>
 		</sheet>
 	</element>
-	<element name="Trident (Topple)" type="Class Feature" source="Internal" id="ID_WOTC_PHB24_CLASS_FEATURE_WPM_TRIDENT_TOPPLE">
+	<element name="Trident (Topple)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WPM_TRIDENT_TOPPLE">
 		<compendium display="false" />
 		<supports>Weapon Mastery</supports>
 		<requirements>ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT</requirements>
