@@ -37,7 +37,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Nature's Wrath" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOTA_NATURES_WRATH">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOTA_NATURES_WRATH</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOTA_NATURES_WRATH</requirements>
 		<description>
 			<p>As a Magic action, you can expend one use of your Channel Divinity to conjure spectral vines around nearby creatures. Each creature of your choice that you can see within 15 feet of yourself must succeed on a Strength saving throw or have the Restrained condition for 1 minute. A Restrained creature repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>
 		</description>
@@ -46,7 +46,7 @@
 		</sheet>
 	</element>
 	<element name="Level 3: Oath Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOTA_OATH_SPELLS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOTA_OATH_SPELLS</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOTA_OATH_SPELLS</requirements>
 		<description>
 			<p>The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Ancients Spells table, you thereafter always have the listed spells prepared.</p>
 			<h5 class="caption">OATH OF THE ANCIENTS SPELLS</h5>
@@ -76,7 +76,7 @@
 		</rules>
 	</element>
 	<element name="Level 7: Aura of Warding" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOTA_AURA_OF_WARDING">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOTA_AURA_OF_WARDING</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOTA_AURA_OF_WARDING</requirements>
 		<description>
 			<p>Ancient magic lies so heavily upon you that it forms an eldritch ward, blunting energy from beyond the Material Plane; you and your allies have Resistance to Necrotic, Psychic, and Radiant damage while in your Aura of Protection.</p>
 		</description>
@@ -85,7 +85,7 @@
 		</sheet>
 	</element>
 	<element name="Level 15: Undying Sentinel" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOTA_UNDYING_SENTINEL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOTA_UNDYING_SENTINEL</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOTA_UNDYING_SENTINEL</requirements>
 		<description>
 			<p>When you are reduced to 0 Hit Points and not killed outright, you can drop to 1 Hit Point instead, and you regain a number of Hit Points equal to three times your Paladin level. Once you use this feature, you can't do so again until you finish a Long Rest.</p>
 			<p class="indent">Additionally, you can't be aged magically, and you cease visibly aging.</p>
@@ -101,7 +101,7 @@
 		</rules>
 	</element>
 	<element name="Level 20: Elder Champion" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOTA_ELDER_CHAMPION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOTA_ELDER_CHAMPION</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOTA_ELDER_CHAMPION</requirements>
 		<description>
 			<p>As a Bonus Action, you can imbue your Aura of Protection with primal power, granting the benefits below for 1 minute or until you end them (no action required).Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p>
 			<p class="indent"><b><i>Diminish Defiance.</i></b> Enemies in the aura have Disadvantage on saving throws against your spells and Channel Divinity options.</p>
@@ -147,11 +147,11 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Nature's Wrath Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOTA_NATURES_WRATH" />
-	<element name="Oath Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOTA_OATH_SPELLS" />
-	<element name="Aura of Warding Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOTA_AURA_OF_WARDING" />
-	<element name="Undying Sentinel Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOTA_UNDYING_SENTINEL" />
-	<element name="Elder Champion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_OOTA_ELDER_CHAMPION" />
+	<element name="Nature's Wrath Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOTA_NATURES_WRATH" />
+	<element name="Oath Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOTA_OATH_SPELLS" />
+	<element name="Aura of Warding Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOTA_AURA_OF_WARDING" />
+	<element name="Undying Sentinel Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOTA_UNDYING_SENTINEL" />
+	<element name="Elder Champion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOTA_ELDER_CHAMPION" />
 	
 	
 </elements>
