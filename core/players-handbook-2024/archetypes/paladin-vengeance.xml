@@ -35,7 +35,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Oath Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOV_OATH_SPELLS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_VENGEANCE_OATH_SPELLS</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_VENGEANCE_OATH_SPELLS</requirements>
 		<description>
 			<p>The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Vengeance Spells table, you thereafter always have the listed spells prepared.</p>
 			<h5>OATH OF VENGEANCE SPELLS</h5>
@@ -65,7 +65,7 @@
 		</rules>
 	</element>
 	<element name="Level 3: Vow of Enmity" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOV_VOW_OF_ENMITY">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_VENGEANCE_VOW_OF_ENMITY</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_VENGEANCE_VOW_OF_ENMITY</requirements>
 		<description>
 			<p>When you take the Attack action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You have Advantage on attack rolls against the creature for 1 minute or until you use this feature again.</p>
 			<p class="indent">If the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required).</p>
@@ -75,7 +75,7 @@
 		</sheet>
 	</element>
 	<element name="Level 7: Relentless Avenger" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOV_RELENTLESS_AVENGER">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_VENGEANCE_RELENTLESS_AVENGER</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_VENGEANCE_RELENTLESS_AVENGER</requirements>
 		<description>
 			<p>Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an Opportunity Attack, you can reduce the creature's Speed to 0 until the end of the current turn. You can then move up to half your Speed as part of the same Reaction. This movement doesn't provoke Opportunity Attacks.</p>
 		</description>
@@ -84,7 +84,7 @@
 		</sheet>
 	</element>
 	<element name="Level 15: Soul of Vengeance" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOV_SOUL_OF_VENGEANCE">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_VENGEANCE_SOUL_OF_VENGEANCE</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_VENGEANCE_SOUL_OF_VENGEANCE</requirements>
 		<description>
 			<p>Immediately after a creature under the effect of your Vow of Enmity hits or misses with an attack roll, you can take a Reaction to make a melee attack against that creature if it's within range.</p>
 		</description>
@@ -93,7 +93,7 @@
 		</sheet>
 	</element>
 	<element name="Level 20: Avenging Angel" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOV_AVENGING_ANGEL">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_VENGEANCE_AVENGING_ANGEL</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_VENGEANCE_AVENGING_ANGEL</requirements>
 		<description>
 			<p>As a Bonus Action, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).</p>
 			<p class="indent"><b><i>Flight.</i></b> You sprout spectral wings on your back, have a Fly Speed of 60 feet, and can hover.</p>
@@ -108,9 +108,9 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Oath Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_VENGEANCE_OATH_SPELLS" />
-	<element name="Vow of Enmity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_VENGEANCE_VOW_OF_ENMITY" />
-	<element name="Relentless Avenger Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_VENGEANCE_RELENTLESS_AVENGER" />
-	<element name="Soul of Vengeance Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_VENGEANCE_SOUL_OF_VENGEANCE" />
-	<element name="Avenging Angel Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_VENGEANCE_AVENGING_ANGEL" />
+	<element name="Oath Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_VENGEANCE_OATH_SPELLS" />
+	<element name="Vow of Enmity Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_VENGEANCE_VOW_OF_ENMITY" />
+	<element name="Relentless Avenger Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_VENGEANCE_RELENTLESS_AVENGER" />
+	<element name="Soul of Vengeance Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_VENGEANCE_SOUL_OF_VENGEANCE" />
+	<element name="Avenging Angel Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_VENGEANCE_AVENGING_ANGEL" />
 </elements>
