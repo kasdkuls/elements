@@ -21,23 +21,23 @@
 				<li>Protect the weak and never fear to act.</li>
 				<li>Let your honorable deeds be an example.</li>
 			</ul>
-			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS" />
-			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_DEVOTION_SACRED_WEAPON" />
-			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION" />
-			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_SMITE_OF_PROTECTION" />
-			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_OATH_SPELLS" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_SACRED_WEAPON" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_AURA_OF_DEVOTION" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_SMITE_OF_PROTECTION" />
+			<div element="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_HOLY_NIMBUS" />
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_DEVOTION_SACRED_WEAPON" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION" level="7" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_SMITE_OF_PROTECTION" level="15" />
-			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS" level="20" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_OATH_SPELLS" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_SACRED_WEAPON" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_AURA_OF_DEVOTION" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_SMITE_OF_PROTECTION" level="15" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_HOLY_NIMBUS" level="20" />
 		</rules>
 	</element>
-	<element name="Level 3: Oath Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_DEVOTION_OATH_SPELLS</requirements>
+	<element name="Level 3: Oath Spells" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_OATH_SPELLS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_DEVOTION_OATH_SPELLS</requirements>
 		<description>
 			<p>You gain oath spells at the paladin levels listed.</p>
 			<h5>OATH OF DEVOTION SPELLS</h5>
@@ -66,8 +66,8 @@
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_FLAME_STRIKE" level="17" spellcasting="Paladin" prepared="true" />
 		</rules>
 	</element>
-	<element name="Level 3: Sacred Weapon" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_DEVOTION_SACRED_WEAPON">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_DEVOTION_SACRED_WEAPON</requirements>
+	<element name="Level 3: Sacred Weapon" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_SACRED_WEAPON">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_DEVOTION_SACRED_WEAPON</requirements>
 		<description>
 			<p>When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.</p>
 			<p class="indent">The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.</p>
@@ -82,8 +82,8 @@
 			<stat name="sacred:weapon" value="charisma:modifier" bonus="base"/>		
 		</rules>
 	</element>
-	<element name="Level 7: Aura of Devotion" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_DEVOTION_AURA_OF_DEVOTION</requirements>
+	<element name="Level 7: Aura of Devotion" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_OOD_AURA_OF_DEVOTION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_DEVOTION_AURA_OF_DEVOTION</requirements>
 		<description>
 			<p>You and your allies have Immunity to the Charmed condition while in your Aura of Protection, If a Charmed ally enters the aura, that condition has no effect on that ally while there.</p>
 		</description>
@@ -92,7 +92,7 @@
 		</sheet>
 	</element>
 	<element name="Level 15: Smite of Protection" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_SMITE_OF_PROTECTION">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_DEVOTION_SMITE_OF_PROTECTION</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_DEVOTION_SMITE_OF_PROTECTION</requirements>
 		<description>
 			<p>Your magical smite now radiates protective energy. Whenever you cast <i>Divine Smite</i>, you and your allies have Half Cover while in your Aura of Protection, The aura has this benefit until the start of your next turn.</p>
 		</description>
@@ -101,7 +101,7 @@
 		</sheet>
 	</element>
 	<element name="Level 20: Holy Nimbus" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS">
-		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_DEVOTION_HOLY_NIMBUS</requirements>
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_DEVOTION_HOLY_NIMBUS</requirements>
 		<description>
 			<p>As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest, You can also restore your use of it by expending a level 5 spell slot (no action required).</p>
 			<p class="indent"><b><i>Holy Ward.</i></b> You have Advantage on any saving throw you are forced to make by a Fiend or an Undead,</p>
@@ -118,9 +118,9 @@
 	</element>
 
 	<!--Feature Replacement Grants-->
-	<element name="Oath Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_DEVOTION_OATH_SPELLS" />
-	<element name="Sacred Weapon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_DEVOTION_SACRED_WEAPON" />
-	<element name="Aura of Devotion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_DEVOTION_AURA_OF_DEVOTION" />
-	<element name="Smite of Protection Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_DEVOTION_SMITE_OF_PROTECTION" />
-	<element name="Holy Nimbus Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_PALADIN_24_DEVOTION_HOLY_NIMBUS" />
+	<element name="Oath Spells Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOD_OATH_SPELLS" />
+	<element name="Sacred Weapon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOD_SACRED_WEAPON" />
+	<element name="Aura of Devotion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOD_AURA_OF_DEVOTION" />
+	<element name="Smite of Protection Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_OOD_SMITE_OF_PROTECTION" />
+	<element name="Holy Nimbus Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_DEVOTION_HOLY_NIMBUS" />
 </elements>
