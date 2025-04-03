@@ -81,16 +81,7 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_EPIC_BOON" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_GREATER_DIVINE_INTERVENTION" />
 		</description>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 		<sheet display="false" />
-=======
-=======
->>>>>>> Stashed changes
-		<sheet display="false"/>
-			<description>A priestly champion who wields divine magic in service of a higher power.</description>
-		</sheet>
->>>>>>> Stashed changes
 		<setters>
 			<set name="short">A Miraculous Priest of Divine Power</set>
 			<set name="hd">d8</set>
