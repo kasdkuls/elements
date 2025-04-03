@@ -49,25 +49,25 @@
 					<td rowspan="2">Unarmored<br />Movement</td>
 				</tr>
 				<tr><td> 1</td><td class="left">Martial Arts, Unarmored Defense</td><td>1d6</td><td>-</td><td>-</td></tr>
-				<tr><td> 2</td><td class="left">Monk's Focus, Unarmored Movement, Uncanny Metabolism</td><td>1d6</td><td>2</td><td>+1o ft.</td></tr>
-				<tr><td> 3</td><td class="left">Deflect Attacks, Monk Subclass</td><td>1d6</td><td>3</td><td>+1o ft.</td></tr>
-				<tr><td> 4</td><td class="left">Ability Score Improvement, Slow Fall</td><td>1d6</td><td>4</td><td>+1o ft.</td></tr>
-				<tr><td> 5</td><td class="left">Extra Attack, Stunning Strike</td><td>1d8</td><td>5</td><td>+1o ft.</td></tr>
+				<tr><td> 2</td><td class="left">Monk's Focus, Unarmored Movement, Uncanny Metabolism</td><td>1d6</td><td>2</td><td>+10 ft.</td></tr>
+				<tr><td> 3</td><td class="left">Deflect Attacks, Monk Subclass</td><td>1d6</td><td>3</td><td>+10 ft.</td></tr>
+				<tr><td> 4</td><td class="left">Ability Score Improvement, Slow Fall</td><td>1d6</td><td>4</td><td>+10 ft.</td></tr>
+				<tr><td> 5</td><td class="left">Extra Attack, Stunning Strike</td><td>1d8</td><td>5</td><td>+10 ft.</td></tr>
 				<tr><td> 6</td><td class="left">Empowered Strikes, Subclass Feature</td><td>1d8</td><td>6</td><td>+15 ft.</td></tr>
 				<tr><td> 7</td><td class="left">Evasion</td><td>1d8</td><td>7</td><td>+15 ft.</td></tr>
 				<tr><td> 8</td><td class="left">Ability Score Improvement</td><td>1d8</td><td>8</td><td>+15 ft.</td></tr>
 				<tr><td> 9</td><td class="left">Acrobatic Movement</td><td>1d8</td><td>9</td><td>+15 ft.</td></tr>
-				<tr><td>10</td><td class="left">Heightened Focus, Self-Restoration</td><td>1d8</td><td>10</td><td>+2o ft.</td></tr>
-				<tr><td>11</td><td class="left">Subclass Feature</td><td>1d10</td><td>11</td><td>+2o ft.</td></tr>
-				<tr><td>12</td><td class="left">Ability Score Improvement</td><td>1d10</td><td>12</td><td>+2o ft.</td></tr>
-				<tr><td>13</td><td class="left">Deflect Energy</td><td>1d10</td><td>13</td><td>+2o ft.</td></tr>
+				<tr><td>10</td><td class="left">Heightened Focus, Self-Restoration</td><td>1d8</td><td>10</td><td>+20 ft.</td></tr>
+				<tr><td>11</td><td class="left">Subclass Feature</td><td>1d10</td><td>11</td><td>+20 ft.</td></tr>
+				<tr><td>12</td><td class="left">Ability Score Improvement</td><td>1d10</td><td>12</td><td>+20 ft.</td></tr>
+				<tr><td>13</td><td class="left">Deflect Energy</td><td>1d10</td><td>13</td><td>+20 ft.</td></tr>
 				<tr><td>14</td><td class="left">Disciplined Survivor</td><td>1d10</td><td>14</td><td>+25 ft.</td></tr>
 				<tr><td>15</td><td class="left">Perfect Focus</td><td>1d10</td><td>15</td><td>+25 ft.</td></tr>
 				<tr><td>16</td><td class="left">Ability Score Improvement</td><td>1d10</td><td>16</td><td>+25 ft.</td></tr>
 				<tr><td>17</td><td class="left">Subclass Feature</td><td>1d12</td><td>17</td><td>+25 ft.</td></tr>
 				<tr><td>18</td><td class="left">Superior Defense</td><td>1s12</td><td>18</td><td>+30 ft.</td></tr>
-				<tr><td>19</td><td class="left">Epic Boon</td><td>1d12</td><td>19</td><td>+3o ft.</td></tr>
-				<tr><td>20</td><td class="left">Body and Mind</td><td>1d12</td><td>20</td><td>+3o ft.</td></tr>
+				<tr><td>19</td><td class="left">Epic Boon</td><td>1d12</td><td>19</td><td>+30 ft.</td></tr>
+				<tr><td>20</td><td class="left">Body and Mind</td><td>1d12</td><td>20</td><td>+30 ft.</td></tr>
 			</table>				
 
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MARTIAL_ARTS" />
