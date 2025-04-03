@@ -15,10 +15,9 @@
 			<p class="indent">Monks focus their internal power to create extraordinary, even supernatural effects. They channel uncanny speed and strength into their attacks, with or without the use of weapons. In a Monk's hands, even the most basic weapons can become sophisticated implements of combat mastery.</p>
 			<p class="indent">Many Monks find that a structured life of ascetic withdrawal helps them cultivate the physical and mental focus they need to harness their power. Other Monks believe that immersing themselves in the vibr a nt confusion of life helps to fuel their determination and discipline.</p>
 			<p class="indent">Monks generally view adventures as tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to turn themselves into living weapons.</p>
-			<table>
-				<thead>
-					<tr><td>Core Monk Traits</td></tr>
-				</thead>
+			<div class="sidebar">
+				<h5>CORE MONK TRAITS</h5>
+				<table>
 				<tr><td>Primary Ability</td><td class="left">Dexterity and Wisdom </td> </tr>
 				<tr><td>Hit Point Die</td><td class="left">D8 per Monk level</td></tr>
 				<tr><td>Saving Throw Proficiencies</td><td class="left">Strenght and Dexterity</td></tr>
@@ -28,20 +27,20 @@
 				<tr><td>Armor Training</td><td class="left">None.</td></tr>
 				<tr><td>Starting Equipment</td><td class="left"><i> Choose A or B:</i> (A) Spear, 5 Daggers, Artisan's Tools or Musical Instrument chosen for the tool proficiency above, Explorer's Pack, and ll GP; or (B) 50 GP</td></tr>
 			</table>
-			<h3>BECOMING A MONK ...</h3>
-			<h4>As A Level 1 Character</h4>
-			<ul>
+			</div>
+			<h4>BECOMING A MONK ...</h4>
+			<h5 style="margin-top:-2em">AS A LEVEL 1 CHARACTER</h5>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
 				<li>Gain all the traits in the Core Monk Traits table.</li>
-				<li>Gain the Monk's level 1 features which are listed in the Monk Features table.</li>
+				<li>Gain the Monk's level 1 features, which are listed in the Monk Features table.</li>
 			</ul>
-			<h4>As A Multiclass Character</h4>
-			<ul>
+			<h5 style="margin-top: 0px">AS A MULTICLASS CHARACTER</h5>
+			<ul style="margin-top:-1em">
 				<li>Gain the Hit Point Die trait from the Core Monk Traits table.</li>
 				<li>Gain the Monk's level 1 features, which are listed in the Monk Features table.</li>
 			</ul>
 			<h5 class="caption">MONK FEATURES</h5>
 			<table class="class-features">
-<<<<<<< HEAD
 				<tr style="font-weight: bold">
 					<td rowspan="2">Level</td>
 					<td class="col-20 left" rowspan="2">Class Features</td>
@@ -69,57 +68,34 @@
 				<tr><td>18</td><td class="left">Superior Defense</td><td>1s12</td><td>18</td><td>+30 ft.</td></tr>
 				<tr><td>19</td><td class="left">Epic Boon</td><td>1d12</td><td>19</td><td>+3o ft.</td></tr>
 				<tr><td>20</td><td class="left">Body and Mind</td><td>1d12</td><td>20</td><td>+3o ft.</td></tr>
-=======
-				<thead>
-					<tr><td class="col-10">Level</td><td class="col-10">Martial Arts</td><td class="col-10">Focus Points</td><td class="col-10">Unarmored Movement</td><td class="col-60 left">Features</td></tr>
-				</thead>
-				<tr><td>1st</td><td>1d6</td><td>—</td><td>—</td><td class="left">Unarmored Defense, Martial Arts</td></tr>
-				<tr><td>2nd</td><td>1d6</td><td>2</td><td>+10 ft.</td><td class="left">Monk's Focus, Uncanny Metabolism, Unarmored Movement</td></tr>
-				<tr><td>3rd</td><td>1d6</td><td>3</td><td>+10 ft.</td><td class="left">Monk Subclass, Deflect Attacks</td></tr>
-				<tr><td>4th</td><td>1d6</td><td>4</td><td>+10 ft.</td><td class="left">Ability Score Improvement, Slow Fall</td></tr>
-				<tr><td>5th</td><td>1d8</td><td>5</td><td>+10 ft.</td><td class="left">Extra Attack, Stunning Strike</td></tr>
-				<tr><td>6th</td><td>1d8</td><td>6</td><td>+15 ft.</td><td class="left">Empowered Strike, Subclass feature</td></tr>
-				<tr><td>7th</td><td>1d8</td><td>7</td><td>+15 ft.</td><td class="left">Evasion</td></tr>
-				<tr><td>8th</td><td>1d8</td><td>8</td><td>+15 ft.</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>9th</td><td>1d8</td><td>9</td><td>+15 ft.</td><td class="left">Acrobatic Movement</td></tr>
-				<tr><td>10th</td><td>1d8</td><td>10</td><td>+20 ft.</td><td class="left">Heightened Focus, Self-Restoration</td></tr>
-				<tr><td>11th</td><td>1d10</td><td>11</td><td>+20 ft.</td><td class="left">Subclass feature</td></tr>
-				<tr><td>12th</td><td>1d10</td><td>12</td><td>+20 ft.</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td>1d10</td><td>13</td><td>+20 ft.</td><td class="left">Deflect Energy</td></tr>
-				<tr><td>14th</td><td>1d10</td><td>14</td><td>+25 ft.</td><td class="left">Disciplined Survivor</td></tr>
-				<tr><td>15th</td><td>1d10</td><td>15</td><td>+25 ft.</td><td class="left">Perfect Focus</td></tr>
-				<tr><td>16th</td><td>1d10</td><td>16</td><td>+25 ft.</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td>1d12</td><td>17</td><td>+25 ft.</td><td class="left">Subclass feature</td></tr>
-				<tr><td>18th</td><td>1d12</td><td>18</td><td>+30 ft.</td><td class="left">Superior Defense</td></tr>
-				<tr><td>19th</td><td>1d12</td><td>19</td><td>+30 ft.</td><td class="left">Epic Boon</td></tr>
-				<tr><td>20th</td><td>1d12</td><td>20</td><td>+30 ft.</td><td class="left">Body and Mindf</td></tr>
->>>>>>> parent of c257141 (General Formatting Compliance & General Fixes (Monk))
 			</table>				
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" />
+
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MARTIAL_ARTS" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONKS_FOCUS" />
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNCANNY_METABOLISM" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT" />
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONASTIC_TRADITION" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNCANNY_METABOLISM" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DEFLECT_ATTACKS" />
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONK_SUBCLASS" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ABILITY_SCORE_IMPROVEMENT" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SLOW_FALL" />
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EXTRA_ATTACK" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_STUNNING_STRIKE" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EMPOWERED_STRIKES" />
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EVASION_MONK" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EVASION" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ACROBATIC_MOVEMENT" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SELF_RESTORATION" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DEFLECT_ENERGY" />
+			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DISCIPLINED_SURVIVOR" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_PERFECT_FOCUS" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SUPERIOR_DEFENSE" />
-			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DISCIPLINED_SURVIVOR" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EPIC_BOON" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_MONK_BODY_AND_MIND" />
 		</description>
 		<sheet display="false"/>
 		<setters>
-			<set name="short">A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection.</set>
+			<set name="short">A Martial Artist of Supernatural Focus.</set>
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
@@ -131,22 +107,22 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
 			<select type="Proficiency" name="Skill Proficiency (Monk)" supports="Skill,Monk" number="2" requirements="!ID_WOTC_PHB24_MULTICLASS_MONK" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MARTIAL_ARTS" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONKS_FOCUS" level="2" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNCANNY_METABOLISM" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT" level="2" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONASTIC_TRADITION" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNCANNY_METABOLISM" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DEFLECT_ATTACKS" level="3" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONK_SUBCLASS" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ABILITY_SCORE_IMPROVEMENT" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SLOW_FALL" level="4" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EXTRA_ATTACK" level="5" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_STUNNING_STRIKE" level="5" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EMPOWERED_STRIKES" level="6" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EVASION_MONK" level="7" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EVASION" level="7" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ACROBATIC_MOVEMENT" level="9" />
-			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SELF_RESTORATION" level="10" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS" level="10" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SELF_RESTORATION" level="10" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DEFLECT_ENERGY" level="13" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DISCIPLINED_SURVIVOR" level="14" />
 			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_PERFECT_FOCUS" level="15" />
@@ -157,19 +133,15 @@
 		<multiclass id="ID_WOTC_PHB24_MULTICLASS_MONK">
 			<prerequisite>Dexterity 13 and Wisdom 13</prerequisite>
 			<requirements>([dex:13],[wis:13])</requirements>
-			<setters>
-				<set name="multiclass proficiencies">Simple weapons, shortswords</set>
-			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
-				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
 			</rules>
 		</multiclass>
 	</element>
 
 
 	<element name="Level: 1 Unarmored Defense" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_DEFENSE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_UNARMORED_DEFENSE</requirements>
 		<description>
 			<p>While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</p>
 		</description>
@@ -189,6 +161,7 @@
 
 
 	<element name="Level: 1 Martial Arts" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MARTIAL_ARTS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MARTIAL_ARTS</requirements>
 		<description>
 			<p>Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are Simple Melee weapons, as well as Martial Melee weapons with the Light property.</p>
 			<p class="indent">You gain the following benefits while you are unarmed or wielding only monk weapons and you aren’t wearing armor or wielding a shield:</p>
@@ -222,6 +195,7 @@
 
 
 	<element name="Level: 2 Monk's Focus" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONKS_FOCUS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MONKS_FOCUS</requirements>
 		<description>
 			<p>Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.</p>
 			<p class="indent">You can spend these points to empower various focus features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more Monk's Focus features as you gain levels in this class.</p>
@@ -286,6 +260,7 @@
 
 
 	<element name="Level: 2 Unarmored Movement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_UNARMORED_MOVEMENT</requirements>
 		<description>
 			<p>Your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk Features table.</p>
 		</description>
@@ -309,6 +284,7 @@
 
 
 	<element name="Level: 2 Uncanny Metabolism" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_UNCANNY_METABOLISM">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_UNCANNY_METABOLISM</requirements>
 		<description>
 			<p>When you roll Initiative, you can regain all expended Focus Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.</p>
 			<p class="indent">Once you use this feature, you can't use it again until you finish a Long Rest.</p>
@@ -322,7 +298,8 @@
 	</element>
 
 
-	<element name="Level: 3 Monk Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONASTIC_TRADITION">
+	<element name="Level: 3 Monk Subclass" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_MONK_SUBCLASS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MONK_SUBCLASS</requirements>
 		<description>
 			<p>When you reach 3rd level, you commit yourself to a monastic tradition, such as the Way of the Open Hand. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.</p>
 		</description>
@@ -334,6 +311,7 @@
 
 
 	<element name="Level: 3 Deflect Attacks" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DEFLECT_ATTACKS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_DEFLECT_ATTACKS</requirements>
 		<description>
 			<p>When an attack roll hits you and its damage includes Bludgeoning Piercing or Slashing damage, you can take a reaection to reduce the attack's total damage against you. The reduction equals 1d1 plus your Dexterity modifier and Monk level. </p>
 			<p class="indent">If you reduce the damage to 0, you can expend 1 Focus Point to redirectsome of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourseelf that isn't behind total cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.</p>
@@ -348,7 +326,6 @@
 			<stat name="monk:deflect attacks bonus" value="dexterity:modifier" />
 			<stat name="monk:deflect attacks bonus" value="level:monk" />
 
-			
 			<stat name="monk:deflect attack damage" value="martial arts:dice" />
 			<stat name="monk:deflect attack damage modifier" value="dexterity:modifier" />
 			
@@ -356,24 +333,24 @@
 	</element>
 
 
-	<element name="Level: 4 Ability Score Improvement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK">
+	<element name="Level: 4 Ability Score Improvement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ABILITY_SCORE_IMPROVEMENT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ABILITY_SCORE_IMPROVEMENT</requirements>
 		<compendium display="false" />
 		<description>
-			<p>You gain the Ability Score Improvement feat (see chapter S) or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16 </p>
+			<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Monk levels 8, 12, and 16.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<!-- Verify & correct 2024 ASI implementation
-			<select type="Class Feature" name="Improvement Option (Monk 4)" supports="Improvement Option,Monk,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Monk 8)" supports="Improvement Option,Monk,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Monk 12)" supports="Improvement Option,Monk,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Monk 16)" supports="Improvement Option,Monk,16" level="16" />
-			<select type="Class Feature" name="Improvement Option (Monk 19)" supports="Improvement Option,Monk,19" level="19" /> -->
+			<select type="Feat" name="Ability Score Improvement (Monk 4)" supports="!Boon" level="4" />
+			<select type="Feat" name="Ability Score Improvement (Monk 8)" supports="!Boon" level="8" />
+			<select type="Feat" name="Ability Score Improvement (Monk 12)" supports="!Boon" level="12" />
+			<select type="Feat" name="Ability Score Improvement (Monk 16)" supports="!Boon" level="16" />
 		</rules>
 	</element>
 
 
 	<element name="Level: 4 Slow Fall" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SLOW_FALL">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SLOW_FALL</requirements>
 		<description>
 			<p>You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.</p>
 		</description>
@@ -390,7 +367,8 @@
 	</element>
 
 
-	<element name="Level: 5 Extra Attack" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK">
+	<element name="Level: 5 Extra Attack" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EXTRA_ATTACK">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EXTRA_ATTACK</requirements>
 		<description>
 			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
 		</description>
@@ -404,6 +382,7 @@
 
 
 	<element name="Level: 5 Stunning Strike" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_STUNNING_STRIKE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_STUNNING_STRIKE</requirements>
 		<description>
 			<p>Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.</p>
 		</description>
@@ -414,6 +393,7 @@
 
 
 	<element name="Level: 6 Empowered Strikes" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EMPOWERED_STRIKES">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EMPOWERED_STRIKES</requirements>
 		<description>
 			<p>Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type.</p>
 		</description>
@@ -423,7 +403,8 @@
 	</element>
 
 
-	<element name="Level: 7 Evasion" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EVASION_MONK">
+	<element name="Level: 7 Evasion" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EVASION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EVASION</requirements>
 		<description>
 			<p>When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.</p>
 			<p class="indent">You don't benefit from this feature if you have the Incapacitated condition.</p>
@@ -434,6 +415,7 @@
 	</element>
 	
 	<element name="Level: 9 Acrobatic Movement" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_ACROBATIC_MOVEMENT">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ACROBATIC_MOVEMENT</requirements>
 		<description>
 			<p>While you are not wearing armor or wielding a shield, you gain the ability to move along vertical surfaes and across liquids on your turn without falling during the movement.</p>
 		</description>
@@ -443,6 +425,7 @@
 	</element>
 	
 	<element name="Level: 10 Heightened Focus" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_HEIGHTENED_FOCUS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_HEIGHTENED_FOCUS</requirements>
 		<description>
 			<p>Your Flurry of Blows, Patient Defense and Step of the Wind features gain the following benefits:</p>
 			<ul>
@@ -457,6 +440,7 @@
 
 
 	<element name="Level: 10 Self-Restoration" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SELF_RESTORATION">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SELF_RESTORATION</requirements>
 		<description>
 			<p>Through sheer force of will. you can remove one of the following conditions from yourself at the end of each of your turns: Charmed, Frightened or Poisoned.</p>
 			<p class="indent">In addition, forgoing food and drink doesn't give you levels of Exhaustion.</p>
@@ -467,6 +451,7 @@
 	</element>
 
 	<element name="Level: 13 Deflect Energy" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DEFLECT_ENERGY">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_DEFLECT_ENERGY</requirements>
 		<description>
 			<p>You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing.</p>
 		</description>
@@ -479,6 +464,7 @@
 
 
 	<element name="Level: 14 Disciplined Survivor" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_DISCIPLINED_SURVIVOR">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_DISCIPLINED_SURVIVOR</requirements>
 		<description>
 			<p>Your physical and mental discipline grant you proficiency in all saving throws.</p>
 			<p class="indent">Additionally, whenever you make a saving throw and fail, you can spend 1 focus point to reroll it and take the second result.</p>
@@ -499,6 +485,7 @@
 
 
 	<element name="Level: 15 Perfect Focus" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_PERFECT_FOCUS">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_PERFECT_FOCUS</requirements>
 		<description>
 			<p>If you haven't used Uncanny Metabolism since your last long rest and have fewer than 4 Focus Points, you regain 4 Focus Points when rolling Initiative.</p>
 		</description>
@@ -509,6 +496,7 @@
 
 
 	<element name="Level: 18 Superior Defense" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_SUPERIOR_DEFENSE">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SUPERIOR_DEFENSE</requirements>
 		<description>
 			<p>At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 min- ute or until you have the Incapacitated condition. During that time, you have Resistance to all damage except Force damage.</p>
 		</description>
@@ -518,19 +506,21 @@
 	</element>
 
 	<element name="Level: 19 Epic Boon" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_EPIC_BOON">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EPIC_BOON</requirements>
 		<description>
-			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify.</p>
+			<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended.</p>
 		</description>
 		<sheet display="false">
 		</sheet>
 		<rules>
-			<!--Verify & correct 2024 ASI implementation
-			 <select type="Class Feature" name="Epic Boon" supports="Improvement Option,Monk,19" /> -->
+			<select type="Feat" name="Epic Boon (Fighter 19)" level="19" />
+
 		</rules>
 	</element>
 
 
 	<element name="Level: 20 Body and Mind" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_MONK_BODY_AND_MIND">
+		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_BODY_AND_MIND</requirements>
 		<description>
 			<p>You have developed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25.</p>
 		</description>
@@ -544,6 +534,31 @@
 			<stat name="dexterity:max" value="4"/>
 		</rules>
 	</element>
+
+	<!--Feature Replacement Grants-->
+	<element name="Unarmored DefenseFeature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_UNARMORED_DEFENSE" />
+	<element name="Martial Arts Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MARTIAL_ARTS" />
+	<element name="Monk's Focus Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MONKS_FOCUS" />
+	<element name="Unarmored Movement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_UNARMORED_MOVEMENT" />
+	<element name="Uncanny Metabolism Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_UNCANNY_METABOLISM" />
+	<element name="Monk Subclass Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_MONK_SUBCLASS" />
+	<element name="Deflect Attacks Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_DEFLECT_ATTACKS" />
+	<element name="Ability Scorer Improvement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ABILITY_SCORE_IMPROVEMENT" />
+	<element name="Slow FallFeature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SLOW_FALL" />
+	<element name="Extra Attack Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EXTRA_ATTACK" />
+	<element name="Stunning Strike Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_STUNNING_STRIKE" />
+	<element name="Empowered Strikes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EMPOWERED_STRIKES" />
+	<element name="Evasion Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EVASION" />
+	<element name="Acrobatic Movement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_ACROBATIC_MOVEMENT" />
+	<element name="Heightened Focus Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_HEIGHTENED_FOCUS" />
+	<element name="Self Restoration Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SELF_RESTORATION" />
+	<element name="Deflect Energy Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_DEFLECT_ENERGY" />
+	<element name="Disciplined Survivor Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_DISCIPLINED_SURVIVOR" />
+	<element name="Perfect Focus Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_PERFECT_FOCUS" />
+	<element name="Superior Defense Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_SUPERIOR_DEFENSE" />
+	<element name="Body and MindFeature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_BODY_AND_MIND" />
+	<element name="Epic Boon Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_MONK_EPIC_BOON" />
+
 </elements>
 
 
