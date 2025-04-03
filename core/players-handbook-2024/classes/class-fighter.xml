@@ -80,8 +80,12 @@
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_STUDIED_ATTACKS" />
 			<div element="ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_EPIC_BOON" />
 		</description>
+<<<<<<< Updated upstream
 		<sheet display="false">
 		</sheet>
+=======
+		<sheet display="false"/>
+>>>>>>> Stashed changes
 		<setters>
 			<set name="short">A Master of All Arms and Armor.</set>
 			<set name="hd">d10</set>
