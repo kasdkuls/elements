@@ -83,7 +83,7 @@
 		</description>
 		<sheet display="false" />
 		<setters>
-			<set name="short">A Miraculous Priest of Divine Power</set>
+			<set name="short">A Miraculous Priest of Divine Power.</set>
 			<set name="hd">d8</set>
 		</setters>
 		<rules>
