@@ -42,7 +42,7 @@
 			<h5 class="caption">MONK FEATURES</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-10">Level</td><td class="col-10">Features</td><td class="col-10">Martial Arts</td><td class="col-10">Ki Points</td><td class="col-60 left">Unarmored Movement</td></tr>
+					<tr><td class="col-10">Level</td><td class="col-60">Features</td><td class="col-10">Martial Arts</td><td class="col-10">Ki Points</td><td class="col-10">Unarmored Movement</td></tr>
 				</thead>
 				<tr><td> 1</td><td class="left">Martial Arts, Unarmored Defense</td><td>1d6</td><td>-</td><td>-</td></tr>
 				<tr><td> 2</td><td class="left">Monk's Focus, Unarmored Movement, Uncanny Metabolism</td><td>1d6</td><td>2</td><td>+10 ft.</td></tr>
