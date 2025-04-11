@@ -109,7 +109,7 @@
 			<prerequisite>Strength 13 or Dexterity 13</prerequisite>
 			<requirements>([str:13]||[dex:13])</requirements>
 			<setters>
-				<set name="multiclass proficiencies">Light armor, medium armor, shields, martial weapons</set>
+				<set name="multiclass proficiencies">Light armor, Medium armor, Shields, Martial weapons</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
