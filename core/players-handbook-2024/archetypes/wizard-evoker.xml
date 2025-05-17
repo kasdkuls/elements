@@ -35,22 +35,14 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Spell" name="Evocation Savant (1-2nd Level)" supports="$(spellcasting:slots),Evocation,$(spellcasting:list)" number="2"  level="3" spellcasting="Wizard" />
-
-			<select type="Spell" name="Evocation Savant (1-3rd Level)" supports="$(spellcasting:slots),Evocation,$(spellcasting:list)" level="5" spellcasting="Wizard" />
-
-			<select type="Spell" name="Evocation Savant (1-4th Level)" supports="$(spellcasting:slots),Evocation,$(spellcasting:list)" level="7" spellcasting="Wizard" />
-
-			<select type="Spell" name="Evocation Savant (1-5th Level)" supports="$(spellcasting:slots),Evocation,$(spellcasting:list)" level="9" spellcasting="Wizard" />
-
-			<select type="Spell" name="Evocation Savant (1-6th Level)" supports="$(spellcasting:slots),Evocation,$(spellcasting:list)" level="11" spellcasting="Wizard" />
-
-			<select type="Spell" name="Evocation Savant (1-7th Level)" supports="$(spellcasting:slots),Evocation,$(spellcasting:list)" level="13" spellcasting="Wizard" />
-
-			<select type="Spell" name="Evocation Savant (1-8th Level)" supports="$(spellcasting:slots),Evocation,$(spellcasting:list)" level="15" spellcasting="Wizard" />
-
-			<select type="Spell" name="Evocation Savant (1-9th Level)" supports="$(spellcasting:slots),Evocation,$(spellcasting:list)" level="17" spellcasting="Wizard" />
-
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" number="2" level="3" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="5" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="7" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="9" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="11" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="13" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="15" spellcasting="Wizard" />
+			<select type="Spell" name="Evocation Spell (Evocation Savant)" supports="$(spellcasting:slots),Evocation,Wizard" level="17" spellcasting="Wizard" />
 		</rules>
 	</element>
 
@@ -70,7 +62,7 @@
 			<p>You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</p>
 		</description>
 		<sheet alt="Sculpt Spells">
-			<description> When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</description>
+			<description>When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</description>
 		</sheet>
 	</element>
 
@@ -80,9 +72,10 @@
 			<p>Whenever you cast a Wizard spell from the Evocation school, you can add your Intelligence modifier to one damage roll of that spell.</p>
 		</description>
 		<sheet alt="Empowered Evocation">
-			<description>Whenever you cast a Wizard spell from the Evocation school, you can add {{intelligence:modifier}} one damage roll of that spell.</description>
+			<description>When you cast a Wizard Evocation spell, you can add {{intelligence:modifier}} to one damage roll of that spell.</description>
 		</sheet>
 	</element>
+
 	<element name="Level 14: Overchannel" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_EVOKER_OVERCHANNEL">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_EVOKER_OVERCHANNEL</requirements>
 		<description>

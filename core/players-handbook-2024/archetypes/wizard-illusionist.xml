@@ -35,22 +35,14 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Spell" name="Illusion Savant (1-2nd Level)" supports="$(spellcasting:slots),Illusion,$(spellcasting:list)" number="2"  level="3" spellcasting="Wizard" />
-
-			<select type="Spell" name="Illusion Savant (1-3rd Level)" supports="$(spellcasting:slots),Illusion,$(spellcasting:list)" number="1" level="5" spellcasting="Wizard" />
-
-			<select type="Spell" name="Illusion Savant (1-4th Level)" supports="$(spellcasting:slots),Illusion,$(spellcasting:list)" number="1" level="7" spellcasting="Wizard" />
-
-			<select type="Spell" name="Illusion Savant (1-5th Level)" supports="$(spellcasting:slots),Illusion,$(spellcasting:list)" number="1" level="9" spellcasting="Wizard" />
-
-			<select type="Spell" name="Illusion Savant (1-6th Level)" supports="$(spellcasting:slots),Illusion,$(spellcasting:list)" number="1" level="11" spellcasting="Wizard" />
-
-			<select type="Spell" name="Illusion Savant (1-7th Level)" supports="$(spellcasting:slots),Illusion,$(spellcasting:list)" number="1" level="13" spellcasting="Wizard" />
-
-			<select type="Spell" name="Illusion Savant (1-8th Level)" supports="$(spellcasting:slots),Illusion,$(spellcasting:list)" number="1" level="15" spellcasting="Wizard" />
-
-			<select type="Spell" name="Illusion Savant (1-9th Level)" supports="$(spellcasting:slots),Illusion,$(spellcasting:list)" number="1" level="17" spellcasting="Wizard" />
-
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" number="2" level="3" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="5" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="7" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="9" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="11" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="13" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="15" spellcasting="Wizard" />
+			<select type="Spell" name="Illusion Spell (Illusion Savant)" supports="$(spellcasting:slots),Illusion,Wizard" level="17" spellcasting="Wizard" />
 		</rules>
 	</element>
 
@@ -58,13 +50,13 @@
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_IMPROVED_ILLUSIONS</requirements>
 		<description>
 			<p>You can cast Illusion spells without providing Verbal components, and if an Illusion spell you cast has a range of 10+ feet, the range increases by 60 feet.</p>
-			<p class="indent">You also know the Minor Illusion cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known. You can create both a sound and an image with a single casting of Minor Illusion, and you can cast it as a Bonus Action.</p>
+			<p class="indent">You also know the <i>Minor Illusion</i> cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known. You can create both a sound and an image with a single casting of <i>Minor Illusion</i>, and you can cast it as a Bonus Action.</p>
 		</description>
 		<sheet alt="Improved Illusions" action="Bonus Action">
 			<description>You can cast minor illusion as a bonus action, and you can create both a sound and an image with a single casting of the spell.</description>
 		</sheet>
 		<rules>
-			<select type="Spell" name="Improved Illusions" supports="Wizard,0" spellcasting="Wizard" default="ID_WOTC_PHB24_SPELL_MINOR_ILLUSION" />
+			<select type="Spell" name="Cantrip (Improved Illusions)" supports="Wizard,0" spellcasting="Wizard" default="ID_WOTC_PHB24_SPELL_MINOR_ILLUSION" />
 		</rules>
 	</element>
 
@@ -74,14 +66,14 @@
 			<p>You always have the <i>Summon Beast</i> and <i>Summon Fey</i> spells prepared. Whenever you cast either spell, you can change its school to Illusion, which causes the summoned creature to appear spectral. You can cast the Illusion version of each spell without expending a spell slot, but casting it without a slot halves the creature's Hit Points. Once you cast either spell without a spell slot, you must finish a Long Rest before you can cast the spell in that way again.</p>
 		</description>
 		<sheet alt="Phantasmal Creatures">
-			<description>You always have the Summon Beast and Summon Fey spells prepared. Whenever you cast either spell, you can change its school to Illusion, which causes the summoned creature to appear spectral. You can cast the Illusion version of each spell without expending a spell slot, but casting it without a slot halves the creature's Hit Points. Once you cast either spell without a spell slot, you must finish a Long Rest before you can cast the spell in that way again.</description>
+			<description>You can cast Summon Beast and Summon Fey as Illusion spells. You can cast Illusion version without expending a spell slot, but this casting halves the summoned creature's HP, and you can only do so once per Long Rest for each spell.</description>
 		</sheet>
 		<rules>		
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_BEAST" spellcasting="Wizard" prepared="true" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_SUMMON_FEY" spellcasting="Wizard" prepared="true" />
 		</rules>
-
 	</element>
+
 	<element name="Level 10: Illusory Self" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_SELF">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_ILLUSORY_SELF</requirements>
 		<description>
@@ -92,6 +84,7 @@
 			<description>When a creature hits you with an attack roll, you can interpose an illusory duplicate of yourself between the attacker and yourself. The attack automatically misses you, then the illusion dissipates. You can also restore your use of this by expending a level 2+ spell slot (no action required).</description>
 		</sheet>
 	</element>
+
 	<element name="Level 14: Illusory Reality" type="Archetype Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ARCHETYPE_WIZARD_ILLUSIONIST_ILLUSORY_REALITY">
 		<requirements>!ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_WIZARD_ILLUSIONIST_ILLUSORY_REALITY</requirements>
 		<description>
