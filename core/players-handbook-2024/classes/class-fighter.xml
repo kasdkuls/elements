@@ -161,18 +161,13 @@
 			<p class="indent">When you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table. </p>
 		</description>
 		<sheet alt="Weapon Mastery">
-			<description>You are mastered in {{weapon mastery:count}} certain types of Simple or Martial weapons, and you can use their mastery properties. You can change one of these weapon choices per Long Rest. </description>
+			<description>Whenever you finish a Long Rest, you can change one of the weapons you previously chosen for a different one. </description>
 		</sheet>
 		<rules>
-			<stat name="weapon mastery:count" value="3" bonus="base" />
-			<stat name="weapon mastery:count" value="4" level="4" bonus="base" />
-			<stat name="weapon mastery:count" value="5" level="10" bonus="base" />	
-			<stat name="weapon mastery:count" value="6" level="16" bonus="base" />	
-
-			<select type="Class Feature" name="Weapon Mastery" level="1" supports="Weapon Mastery" number="3"/>
-			<select type="Class Feature" name="Weapon Mastery" level="4" supports="Weapon Mastery" />
-			<select type="Class Feature" name="Weapon Mastery" level="10" supports="Weapon Mastery" />
-			<select type="Class Feature" name="Weapon Mastery" level="16" supports="Weapon Mastery" />
+			<select type="Class Feature" name="Weapon Mastery (Fighter 1)" level="1" supports="Weapon Mastery" number="3"/>
+			<select type="Class Feature" name="Weapon Mastery (Fighter 4)" level="4" supports="Weapon Mastery" />
+			<select type="Class Feature" name="Weapon Mastery (Fighter 10)" level="10" supports="Weapon Mastery" />
+			<select type="Class Feature" name="Weapon Mastery (Fighter 16)" level="16" supports="Weapon Mastery" />
 		</rules>
 	</element>
 
