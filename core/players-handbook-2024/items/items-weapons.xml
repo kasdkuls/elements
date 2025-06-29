@@ -427,8 +427,8 @@
 			<set name="weight" lb="4">4 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="range">20/60</set>
-			<set name="damage" type="piercing">1d6</set>
-			<set name="versatile">1d8</set>
+			<set name="damage" type="piercing">1d8</set>
+			<set name="versatile">1d10</set>
 			<set name="proficiency">ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT</set>
 		</setters>
 	</element>
