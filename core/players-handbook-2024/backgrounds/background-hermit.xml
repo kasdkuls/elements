@@ -24,7 +24,7 @@
 			<set name="short">Constitution, Wisdom, Charisma, Healer Feat, Medicine and Religion Skills, Herbalism Kit</set>
 		</setters>
 		<rules>
-			<grant type="Ability Score Improvement" id="ID_WOTC_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_WIS_CHA" />
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_WIS_CHA" />
 			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_HEALER" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_MEDICINE" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_RELIGION" />
