@@ -24,7 +24,7 @@
 			<set name="short">Strength, Dexterity, Constitution, Savage Attacker Feat, Athletics and Intimidation Skills, a Gaming Set</set>
 		</setters>
 		<rules>
-			<grant type="Ability Score Improvement" id="ID_WOTC_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CON" />
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_CON" />
 			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_SAVAGE_ATTACKER" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_ATHLETICS" /> 
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_INTIMIDATION" />
