@@ -24,7 +24,7 @@
 			<set name="short">Constitution, Intelligence, Charisma, Lucky Feat, Animal Handling and Persuasion Skills, Navigator's Tools</set>
 		</setters>
 		<rules>
-			<grant type="Ability Score Improvement" id="ID_WOTC_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_CHA" />
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_CON_INT_CHA" />
 			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_LUCKY" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_ANIMALHANDLING" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_PERSUASION" />
