@@ -24,7 +24,7 @@
 			<set name="short">Strength, Constitution, Wisdom, Tough Feat, Animal Handling and Nature Skills, Carpenter's Tools</set>
 		</setters>
 		<rules>
-			<grant type="Ability Score Improvement" id="ID_WOTC_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_WIS" />
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_CON_WIS" />
 			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_TOUGH" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_ANIMALHANDLING" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_NATURE" />
