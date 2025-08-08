@@ -24,7 +24,7 @@
 			<set name="short">Dexterity, Constitution, Wisdom, Magic Initiate (Druid) Feat, Stealth and Survival Skills, Cartographer's Tools</set>
 		</setters>
 		<rules>
-			<grant type="Ability Score Improvement" id="ID_WOTC_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_WIS" />
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_DEX_CON_WIS" />
 			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_STEALTH" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_SURVIVAL" />
