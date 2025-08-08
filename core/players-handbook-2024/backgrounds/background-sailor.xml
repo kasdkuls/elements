@@ -24,7 +24,7 @@
 			<set name="short">Strength, Dexterity, Wisdom, Tavern Brawler Feat, Acrobatics and Perception Skills, Navigator's Tools</set>
 		</setters>
 		<rules>
-			<grant type="Ability Score Improvement" id="ID_WOTC_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_WIS" />
+			<grant type="Ability Score Improvement" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_COMBINATION_STR_DEX_WIS" />
 			<grant type="Feat" id="ID_WOTC_PHB24_FEAT_TAVERN_BRAWLER" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_ACROBATICS" />
 			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_SKILL_PERCEPTION" /> 
