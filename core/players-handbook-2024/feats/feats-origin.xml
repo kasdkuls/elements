@@ -9,10 +9,9 @@
 		
 	<element name="Alert" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_ALERT">
 		<supports>Origin</supports>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
-			<p>You gain the Following benefits.</p>
+			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Initiative Proficiency.</i></b> When you roll Initiative, you can add your Proficiency Bonus to the roll.</p>
 			<p class="indent"><b><i>Initiative Swap.</i></b> Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.</p>
 		</description>
@@ -20,22 +19,22 @@
 			<description>Immediately after you roll Initiative, you can swap yours with that of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.</description>
 		</sheet>
 		<rules>
-			<stat name="initiative" value="proficiency" />			
+			<stat name="initiative" value="proficiency" bonus="proficiency" />			
 		</rules>
 	</element>
+
 	<element name="Crafter" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_CRAFTER">
 		<supports>Origin</supports>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Tool Proficiency.</i></b> You gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table.</p>
 			<p class="indent"><b><i>Discount.</i></b> Whenever you buy a nonmagical item, you receive a 20 percent discount on it.</p>
 			<p class="indent"><b><i>Fast Crafting.</i></b> When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have the Artisan's Tools associated with that item and have proficiency with those tools. The item lasts until you finish another Long Rest, at which point the item falls apart.</p>
-			<h5>Fast Crafting</h5>
+			<h5>FAST CRAFTING</h5>
 			<table>
 				<thead>
-					<tr><td>column1</td><td>column2</td></tr>
+					<tr><td>Artisan's Tools</td><td>Crafted Gear</td></tr>
 				</thead>
 				<tr><td>Carpenter's Tools</td><td>Ladder, Torch</td></tr>
 				<tr><td>Leatherworker's Tools</td><td>Case, Pouch</td></tr>
@@ -51,12 +50,12 @@
 			<description>Whenever you buy a nonmagical item, you receive a 20% discount on it. When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have tools and proficiency associated with that item. The item lasts until you finish another Long Rest.</description>
 		</sheet>
 		<rules>
-			<select type="Proficiency" name="Tool Proficiency (Crafter)" supports="(ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS)" number="3"/>
+			<select type="Proficiency" name="Tool Proficiency (Crafter)" supports="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS|ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" number="3"/>
 		</rules>
 	</element>
+
 	<element name="Healer" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_HEALER">
 		<supports>Origin</supports>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
@@ -68,9 +67,9 @@
 			Whenever you roll a 1 on a die to restore HP with a spell or Battle Medic's benefit, you can reroll it, and you must use the new result.</description>
 		</sheet>
 	</element>
+
 	<element name="Lucky" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_LUCKY">
 		<supports>Origin</supports>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
@@ -78,9 +77,9 @@
 			<p class="indent"><b><i>Advantage.</i></b> When you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.</p>
 			<p class="indent"><b><i>Disadvantage.</i></b> When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.</p>
 		</description>
-		<sheet usage="{{proficiency}} Luck Points/Long Rest">
-			<description>When you roll a d20 for a D20 Test, you can spend 1 Luck Point to give yourself Advantage on the roll.&#13;
-			When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll.</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>When you roll a d20 for a D20 Test, you can give yourself Advantage on the roll.&#13;
+			Alternatively, when a creature rolls a d20 for an attack roll against you, you can impose Disadvantage on that roll.</description>
 		</sheet>
 	</element>
 <!-- -->
