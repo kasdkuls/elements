@@ -218,15 +218,15 @@
 	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat's spells is Charisma</p>
+			<p>Your spellcasting ability for this feat's spells is Charisma.</p>
 		</description>
 		<sheet alt="Magic Initiate (Druid)">
-			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Charisma.</description>
+			<description>You can cast the chosen level 1 spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Charisma. &#13;
+			Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</description>
 		</sheet>
 	</element>
 
 	<element name="Wizard" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD">
-		<supports>Magic Initiate 24</supports>
 		<compendium display="false" />
 		<description>
 			<p>You learn two cantrips of your choice from the Wizard's spell list.</p>
@@ -277,11 +277,11 @@
 			<p class="indent"><b><i>Instrument Training.</i></b> You gain proficiency with three Musical Instruments of your choice.</p>
 			<p class="indent"><b><i>Encouraging Song.</i></b> As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.</p>
 		</description>
-		<sheet usage="1/Short or Long Rest">
-			<description>You can play a song on a Musical Instrument you are proficient with and give Heroic Inspiration to up to {{proficiency}} allies who hear the song.</description>
+		<sheet>
+			<description>As you finish a Short or Long Rest, you can play a song on a Musical Instrument you are proficient with and give Heroic Inspiration to up to {{proficiency}} allies who hear the song.</description>
 		</sheet>
 		<rules>
-			<select type="Proficiency" name="Tool Proficiency (Musician)" supports="Musical Instrument" number="3" />
+			<select type="Proficiency" name="Musical Instrument (Musician)" supports="Musical Instrument" number="3" />
 		</rules>
 	</element>
 
@@ -335,8 +335,11 @@
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_SKILLED_3</requirements>
-		<prerequisite>Origin Feat</prerequisite>
-		<description />
+		<description>
+			<p class="flavor">Origin Feat</p>
+			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
+			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once.</p>
+		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
@@ -346,8 +349,11 @@
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_SKILLED_4</requirements>
-		<prerequisite>Origin Feat</prerequisite>
-		<description />
+		<description>
+			<p class="flavor">Origin Feat</p>
+			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
+			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once.</p>
+		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
@@ -357,8 +363,11 @@
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_SKILLED_5</requirements>
-		<prerequisite>Origin Feat</prerequisite>
-		<description />
+		<description>
+			<p class="flavor">Origin Feat</p>
+			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
+			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once.</p>
+		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
@@ -368,8 +377,11 @@
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_SKILLED_6</requirements>
-		<prerequisite>Origin Feat</prerequisite>
-		<description />
+		<description>
+			<p class="flavor">Origin Feat</p>
+			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
+			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once.</p>
+		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
@@ -379,7 +391,11 @@
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_SKILLED_7</requirements>
-		<description />
+		<description>
+			<p class="flavor">Origin Feat</p>
+			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
+			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once.</p>
+		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
@@ -389,17 +405,19 @@
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_SKILLED_8</requirements>
-		<prerequisite>Origin Feat</prerequisite>
-		<description />
+		<description>
+			<p class="flavor">Origin Feat</p>
+			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
+			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once.</p>
+		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
 		</rules>
 	</element>
-<!-- -->
+
 	<element name="Tavern Brawler" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_TAVERN_BRAWLER">
 		<supports>Origin</supports>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
@@ -409,7 +427,10 @@
 			<p class="indent"><b><i>Push.</i></b> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn.</p>
 		</description>
 		<sheet>
-			<description>When you hit with your Unarmed Strike and deal damage, you can deal 1d4+{{strength:modifier}} Bludgeoning damage and, once per turn you can also push it 5ft away from you. Whenever you roll a 1 for damage for your Unarmed Strike, you can reroll the die, and you must use the new roll. You have proficiency with improvised weapons.</description>
+			<description>You gain following benefits: &#13;
+			• When you hit with your Unarmed Strike and deal damage, you can deal 1d4+{{strength:modifier}} Bludgeoning damage, and once per turn you can also push the target of that attack 5ft. away from you. &#13;
+			• Whenever you roll a 1 for damage for your Unarmed Strike, you can reroll the die, and you must use the new roll. &#13;
+			• You have proficiency with improvised weapons.</description>
 		</sheet>
 	</element>
 
