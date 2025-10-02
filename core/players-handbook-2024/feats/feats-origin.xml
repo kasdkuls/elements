@@ -117,7 +117,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate 24" />
+			<select type="Feat Feature" name="Spell List (Magic Initiate)" supports="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD"/>
 		</rules>
 	</element>
 	<element name="Magic Initiate" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_3">
@@ -135,7 +135,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate 24" />
+			<select type="Feat Feature" name="Spell List (Magic Initiate)" supports="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD"/>
 		</rules>
 	</element>
 	
@@ -143,7 +143,7 @@
 		<supports>Magic Initiate 24</supports>
 		<compendium display="false" />
 		<description>
-			<p>You learn two cantrips of your choice from the cleric's spell list.</p>
+			<p>You learn two cantrips of your choice from the Cleric's spell list.</p>
 			<p class="indent">Choose a level 1 spell from the same list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
 			<p class="indent">Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
 		</description>
@@ -151,7 +151,7 @@
 		<rules>
 			<select type="Feat Feature" name="Spellcasting Ability (Magic Initiate)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_CHARISMA" />
 			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Cleric" number="2" />
-			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Cleric" />
+			<select type="Spell" name="Level 1 Spell (Magic Initiate)" supports="1,Cleric" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_INTELLIGENCE">
@@ -186,7 +186,7 @@
 		<supports>Magic Initiate 24</supports>
 		<compendium display="false" />
 		<description>
-			<p>You learn two cantrips of your choice from the druid's spell list.</p>
+			<p>You learn two cantrips of your choice from the Druid's spell list.</p>
 			<p class="indent">Choose a level 1 spell from the same list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
 			<p class="indent">Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
 		</description>
@@ -194,7 +194,7 @@
 		<rules>
 			<select type="Feat Feature" name="Spellcasting Ability (Magic Initiate)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_CHARISMA" />
 			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Druid" number="2" />
-			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Druid" />
+			<select type="Spell" name="Level 1 Spell (Magic Initiate)" supports="1,Druid" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_INTELLIGENCE">
@@ -229,7 +229,7 @@
 		<supports>Magic Initiate 24</supports>
 		<compendium display="false" />
 		<description>
-			<p>You learn two cantrips of your choice from the wizard's spell list.</p>
+			<p>You learn two cantrips of your choice from the Wizard's spell list.</p>
 			<p class="indent">Choose a level 1 spell from the same list. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p>
 			<p class="indent">Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p>
 		</description>
@@ -237,7 +237,7 @@
 		<rules>
 			<select type="Feat Feature" name="Spellcasting Ability (Magic Initiate)" supports="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_INTELLIGENCE|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_WISDOM|ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_CHARISMA" />
 			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Wizard" number="2" />
-			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Wizard" />
+			<select type="Spell" name="Level 1 Spell (Magic Initiate)" supports="1,Wizard" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_INTELLIGENCE">
@@ -274,7 +274,7 @@
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
-			<p class="indent"><b><i>Instrument Training.</i></b> You gain proficiency with three Musical Instruments of your choice</p>
+			<p class="indent"><b><i>Instrument Training.</i></b> You gain proficiency with three Musical Instruments of your choice.</p>
 			<p class="indent"><b><i>Encouraging Song.</i></b> As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.</p>
 		</description>
 		<sheet usage="1/Short or Long Rest">
@@ -284,9 +284,9 @@
 			<select type="Proficiency" name="Tool Proficiency (Musician)" supports="Musical Instrument" number="3" />
 		</rules>
 	</element>
+
 	<element name="Savage Attacker" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SAVAGE_ATTACKER">
 		<supports>Origin</supports>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.</p>
@@ -306,7 +306,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Skilled)" supports="(Skill||Tool),!Expertise,!Musical Instrument" number="3" />
+			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
 		</rules>
 	</element>
 	<element name="Skilled" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKILLED_2">
@@ -317,7 +317,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Skilled)" supports="(Skill||Tool),!Expertise,!Musical Instrument" number="3" />
+			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
 		</rules>
 	</element>
 	<element name="Skilled" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKILLED_3">
@@ -328,7 +328,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Skilled)" supports="(Skill||Tool),!Expertise,!Musical Instrument" number="3" />
+			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
 		</rules>
 	</element>
 	<element name="Skilled" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKILLED_4">
@@ -339,7 +339,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Skilled)" supports="(Skill||Tool),!Expertise,!Musical Instrument" number="3" />
+			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
 		</rules>
 	</element>
 	<element name="Skilled" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKILLED_5">
@@ -350,7 +350,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Skilled)" supports="(Skill||Tool),!Expertise,!Musical Instrument" number="3" />
+			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
 		</rules>
 	</element>
 	<element name="Skilled" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKILLED_6">
@@ -361,7 +361,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Skilled)" supports="(Skill||Tool),!Expertise,!Musical Instrument" number="3" />
+			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
 		</rules>
 	</element>
 	<element name="Skilled" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKILLED_7">
@@ -372,7 +372,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Skilled)" supports="(Skill||Tool),!Expertise,!Musical Instrument" number="3" />
+			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
 		</rules>
 	</element>
 	<element name="Skilled" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKILLED_8">
@@ -382,7 +382,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Skilled)" supports="(Skill||Tool),!Expertise,!Musical Instrument" number="3" />
+			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
 		</rules>
 	</element>
 	<element name="Skilled" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKILLED_9">
@@ -393,7 +393,7 @@
 		<description />
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency (Skilled)" supports="(Skill||Tool),!Expertise,!Musical Instrument" number="3" />
+			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
 		</rules>
 	</element>
 <!-- -->
@@ -412,22 +412,19 @@
 			<description>When you hit with your Unarmed Strike and deal damage, you can deal 1d4+{{strength:modifier}} Bludgeoning damage and, once per turn you can also push it 5ft away from you. Whenever you roll a 1 for damage for your Unarmed Strike, you can reroll the die, and you must use the new roll. You have proficiency with improvised weapons.</description>
 		</sheet>
 	</element>
+
 	<element name="Tough" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_TOUGH">
 		<supports>Origin</supports>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>Your Hit Point maximum increases by an amount equal to twice your character level when you gain this feat. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points.</p>
 		</description>
-		<sheet>
-			<description>Your hit points maximum increases by {{tough:hp}}.</description>
-		</sheet>
+		<sheet display="false" />
 		<rules>
 			<stat name="tough:hp" value="level" />
 			<stat name="tough:hp" value="level" />
-			<stat name="hp" value="tough:hp" />
+			<stat name="hp" value="tough:hp" bonus="tough" />
 		</rules>
 	</element>
-		
-		
+
 </elements>
