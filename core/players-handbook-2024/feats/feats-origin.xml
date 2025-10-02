@@ -46,6 +46,9 @@
 				<tr><td>Woodcarver's Tools</td><td>Club, Greatclub, Quarterstaff</td></tr>
 			</table>
 		</description>
+		<setters>
+			<set name="keywords">fast crafting</set>
+		</setters>
 		<sheet>
 			<description>Whenever you buy a nonmagical item, you receive a 20% discount on it. When you finish a Long Rest, you can craft one piece of gear from the Fast Crafting table, provided you have tools and proficiency associated with that item. The item lasts until you finish another Long Rest.</description>
 		</sheet>
@@ -63,8 +66,9 @@
 			<p class="indent"><b><i>Healing Rerolls.</i></b> Whenever you roll a die to determine the number of Hit Points you restore with a spell or with this feat's Battle Medic benefit, you can reroll the die if it rolls a 1, and you must use the new roll.</p>
 		</description>
 		<sheet>
-			<description>You can spend one use of a Healer's Kit to tend to a creature within 5ft of yourself. That creature can expend one of its Hit Point Dice, and you then roll that die. It regains a number of HP equal to the roll +{{proficiency}}.&#13;
-			Whenever you roll a 1 on a die to restore HP with a spell or Battle Medic's benefit, you can reroll it, and you must use the new result.</description>
+			<description>You gain the following benefits: &#13;
+			• You can spend one use of a Healer's Kit to tend to a creature within 5ft. of yourself. That creature can expend one of its Hit Point Dice, and you then roll that die. It regains a number of HP equal to the roll + {{proficiency}}. &#13;
+			• Whenever you roll a 1 on a die to restore HP with a spell or the benefit above, you can reroll it, you must use the new result.</description>
 		</sheet>
 	</element>
 
@@ -82,10 +86,9 @@
 			Alternatively, when a creature rolls a d20 for an attack roll against you, you can impose Disadvantage on that roll.</description>
 		</sheet>
 	</element>
-<!-- -->
+
 	<element name="Magic Initiate" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE">
 		<supports>Origin</supports>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
@@ -96,17 +99,13 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Magic Initiate (Acolyte)" supports="Magic Initiate 24" default="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC" requirements="ID_WOTC_PHB24_BACKGROUND_ACOLYTE"/>
-			<select type="Feat Feature" name="Magic Initiate (Guide)" supports="Magic Initiate 24" default="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID" requirements="ID_WOTC_PHB24_BACKGROUND_GUIDE"/>
-			<select type="Feat Feature" name="Magic Initiate (Sage)" supports="Magic Initiate 24" default="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD" requirements="ID_WOTC_PHB24_BACKGROUND_SAGE"/>
-			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate 24" requirements="!(ID_WOTC_PHB24_BACKGROUND_ACOLYTE||ID_WOTC_PHB24_BACKGROUND_GUIDE||ID_WOTC_PHB24_BACKGROUND_SAGE)"/>
+			<select type="Feat Feature" name="Spell List (Magic Initiate)" supports="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID|ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_WIZARD"/>
 		</rules>
 	</element>
 	<element name="Magic Initiate" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_2">
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_MAGIC_INITIATE</requirements>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
@@ -124,7 +123,6 @@
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_2</requirements>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
@@ -140,7 +138,6 @@
 	</element>
 	
 	<element name="Cleric" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_CLERIC">
-		<supports>Magic Initiate 24</supports>
 		<compendium display="false" />
 		<description>
 			<p>You learn two cantrips of your choice from the Cleric's spell list.</p>
@@ -157,33 +154,35 @@
 	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat's spells is Intelligence</p>
+			<p>Your spellcasting ability for this feat's spells is Intelligence.</p>
 		</description>
 		<sheet alt="Magic Initiate (Cleric)">
-			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Intelligence.</description>
+			<description>You can cast the chosen level 1 spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Intelligence. &#13;
+			Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</description>
 		</sheet>
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat's spells is Wisdom</p>
+			<p>Your spellcasting ability for this feat's spells is Wisdom.</p>
 		</description>
 		<sheet alt="Magic Initiate (Cleric)">
-			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Wisdom.</description>
+			<description>You can cast the chosen level 1 spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Wisdom. &#13;
+			Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</description>
 		</sheet>
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_CLERIC_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat's spells is Charisma</p>
+			<p>Your spellcasting ability for this feat's spells is Charisma.</p>
 		</description>
 		<sheet alt="Magic Initiate (Cleric)">
-			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Charisma.</description>
+			<description>You can cast the chosen level 1 spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Charisma. &#13;
+			Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</description>
 		</sheet>
 	</element>
 
 	<element name="Druid" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MAGIC_INITIATE_DRUID">
-		<supports>Magic Initiate 24</supports>
 		<compendium display="false" />
 		<description>
 			<p>You learn two cantrips of your choice from the Druid's spell list.</p>
@@ -200,19 +199,21 @@
 	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat's spells is Intelligence</p>
+			<p>Your spellcasting ability for this feat's spells is Intelligence.</p>
 		</description>
 		<sheet alt="Magic Initiate (Druid)">
-			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Intelligence.</description>
+			<description>You can cast the chosen level 1 spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Intelligence. &#13;
+			Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</description>
 		</sheet>
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat's spells is Wisdom</p>
+			<p>Your spellcasting ability for this feat's spells is Wisdom.</p>
 		</description>
 		<sheet alt="Magic Initiate (Druid)">
-			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Wisdom.</description>
+			<description>You can cast the chosen level 1 spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Wisdom. &#13;
+			Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</description>
 		</sheet>
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_DRUID_CHARISMA">
@@ -243,34 +244,36 @@
 	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_INTELLIGENCE">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat's spells is Intelligence</p>
+			<p>Your spellcasting ability for this feat's spells is Intelligence.</p>
 		</description>
 		<sheet alt="Magic Initiate (Wizard)">
-			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Intelligence.</description>
+			<description>You can cast the chosen level 1 spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Intelligence. &#13;
+			Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</description>
 		</sheet>
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_WISDOM">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat's spells is Wisdom</p>
+			<p>Your spellcasting ability for this feat's spells is Wisdom.</p>
 		</description>
 		<sheet alt="Magic Initiate (Wizard)">
-			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Wisdom.</description>
+			<description>You can cast the chosen level 1 spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Wisdom. &#13;
+			Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</description>
 		</sheet>
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_MAGIC_INITIATE_WIZARD_CHARISMA">
 		<compendium display="false" />
 		<description>
-			<p>Your spellcasting ability for this feat's spells is Charisma</p>
+			<p>Your spellcasting ability for this feat's spells is Charisma.</p>
 		</description>
 		<sheet alt="Magic Initiate (Wizard)">
-			<description>You can cast the chosen 1st-level spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Charisma.</description>
+			<description>You can cast the chosen level 1 spell without a spell slot. You can also cast the spell using any spell slots you have. Your spellcasting ability for this feat's spells is Charisma. &#13;
+			Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</description>
 		</sheet>
 	</element>
-<!-- /magic initiate -->	
+
 	<element name="Musician" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_MUSICIAN">
 		<supports>Origin</supports>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain the following benefits.</p>
@@ -295,10 +298,9 @@
 			<description>When you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.</description>
 		</sheet>
 	</element>
-<!-- -->
+
 	<element name="Skilled" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKILLED">
 		<supports>Origin</supports>
-		<prerequisite>Origin Feat</prerequisite>
 		<description>
 			<p class="flavor">Origin Feat</p>
 			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
@@ -313,8 +315,11 @@
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_SKILLED</requirements>
-		<prerequisite>Origin Feat</prerequisite>
-		<description />
+		<description>
+			<p class="flavor">Origin Feat</p>
+			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
+			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once.</p>
+		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
@@ -324,8 +329,11 @@
 		<supports>Origin</supports>
 		<compendium display="false" />
 		<requirements>ID_WOTC_PHB24_FEAT_SKILLED_2</requirements>
-		<prerequisite>Origin Feat</prerequisite>
-		<description />
+		<description>
+			<p class="flavor">Origin Feat</p>
+			<p>You gain proficiency in any combination of three skills or tools of your choice.</p>
+			<p class="indent"><b><i>Repeatable.</i></b> You can take this feat more than once.</p>
+		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Proficiency" name="Skill or Tool Proficiency (Skilled)" supports="Skill||Tool" number="3" />
