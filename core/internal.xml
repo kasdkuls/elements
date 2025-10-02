@@ -1187,88 +1187,18 @@
 		</setters>
 	</element>
 
-	<!--PHB24 General Feat Ability Score Increase-->
-	<element name="Ability Score Increase +2 (Strength)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_STRENGTH">
+	<element name="Background Ability Score Improvement" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_BACKGROUND_ASI" />
+
+	<element name="Fighting Style Feature" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE" />
+
+	<element name="Spellcasting Feature Grants" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
+
+	<element name="Pact Magic Feature Grants" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_PACT_MAGIC_FEATURE" />
+
+	<!-- Generic Ability Score Increases for Feats from PHB24 and onward -->
+	<element name="Strength +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH">
 		<compendium display="false" />
-		<supports>Feat ASI 2</supports>
-		<description>
-			<p>Your Strength increases by 2.</p>
-		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<stat name="strength" value="2" alt="Ability Score Increase" />
-		</rules>
-	</element>
-	<element name="Ability Score Increase +2 (Dexterity)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_DEXTERITY">
-		<compendium display="false" />
-		<supports>Feat ASI 2</supports>
-		<description>
-			<p>Your Dexterity increases by 2.</p>
-		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<stat name="dexterity" value="2" alt="Ability Score Increase" />
-		</rules>
-	</element>
-	<element name="Ability Score Increase +2 (Constitution)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_CONSTITUTION">
-		<compendium display="false" />
-		<supports>Feat ASI 2</supports>
-		<description>
-			<p>Your Constitution increases by 2.</p>
-		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<stat name="constitution" value="2" alt="Ability Score Increase" />
-		</rules>
-	</element>
-	<element name="Ability Score Increase +2 (Intelligence)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_INTELLIGENCE">
-		<compendium display="false" />
-		<supports>Feat ASI 2</supports>
-		<description>
-			<p>Your Intelligence increases by 2.</p>
-		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<stat name="intelligence" value="2" alt="Ability Score Increase" />
-		</rules>
-	</element>
-	<element name="Ability Score Increase +2 (Wisdom)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_WISDOM">
-		<compendium display="false" />
-		<supports>Feat ASI 2</supports>
-		<description>
-			<p>Your Wisdom increases by 2.</p>
-		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<stat name="wisdom" value="2" alt="Ability Score Increase" />
-		</rules>
-	</element>
-	<element name="Ability Score Increase +2 (Charisma)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_2_CHARISMA">
-		<compendium display="false" />
-		<supports>Feat ASI 2</supports>
-		<description>
-			<p>Your Charisma increases by 2.</p>
-		</description>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<stat name="charisma" value="2" alt="Ability Score Increase" />
-		</rules>
-	</element>
-	<element name="Ability Score Increase +1 (Strength)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_STRENGTH">
-		<compendium display="false" />
-		<supports>Feat ASI 1</supports>
+		<supports>Feat Ability Score Increase</supports>
 		<description>
 			<p>Your Strength increases by 1.</p>
 		</description>
@@ -1279,9 +1209,9 @@
 			<stat name="strength" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +1 (Dexterity)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_DEXTERITY">
+	<element name="Dexterity +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY">
 		<compendium display="false" />
-		<supports>Feat ASI 1</supports>
+		<supports>Feat Ability Score Increase</supports>
 		<description>
 			<p>Your Dexterity increases by 1.</p>
 		</description>
@@ -1292,9 +1222,9 @@
 			<stat name="dexterity" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +1 (Constitution)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_CONSTITUTION">
+	<element name="Constitution +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION">
 		<compendium display="false" />
-		<supports>Feat ASI 1</supports>
+		<supports>Feat Ability Score Increase</supports>
 		<description>
 			<p>Your Constitution increases by 1.</p>
 		</description>
@@ -1305,9 +1235,9 @@
 			<stat name="constitution" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +1 (Intelligence)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_INTELLIGENCE">
+	<element name="Intelligence +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE">
 		<compendium display="false" />
-		<supports>Feat ASI 1</supports>
+		<supports>Feat Ability Score Increase</supports>
 		<description>
 			<p>Your Intelligence increases by 1.</p>
 		</description>
@@ -1318,9 +1248,9 @@
 			<stat name="intelligence" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +1 (Wisdom)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_WISDOM">
+	<element name="Wisdom +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM">
 		<compendium display="false" />
-		<supports>Feat ASI 1</supports>
+		<supports>Feat Ability Score Increase</supports>
 		<description>
 			<p>Your Wisdom increases by 1.</p>
 		</description>
@@ -1331,9 +1261,9 @@
 			<stat name="wisdom" value="1" alt="Ability Score Increase" />
 		</rules>
 	</element>
-	<element name="Ability Score Increase +1 (Charisma)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_GENERAL_ASI_1_CHARISMA">
+	<element name="Charisma +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA">
 		<compendium display="false" />
-		<supports>Feat ASI 1</supports>
+		<supports>Feat Ability Score Increase</supports>
 		<description>
 			<p>Your Charisma increases by 1.</p>
 		</description>
@@ -1345,13 +1275,13 @@
 		</rules>
 	</element>
 
-<!--PHB24 Boon Ability Score Increase-->
-	<element name="Ability Score Increase (Strength)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_STRENGTH">
+	<!-- Generic Ability Score Increase for Boons from PHB24 and onward -->-->
+	<element name="Strength +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_STRENGTH">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<requirements>[level:19]</requirements>
 		<description>
-			<p>Your Strength increases by 1.</p>
+			<p>Your Strength increases by 1, to a maximum of 30.</p>
 		</description>
 		<setters>
 			<set name="allow duplicate">true</set>
@@ -1361,12 +1291,12 @@
 			<stat name="strength:max" value="10" bonus="ability"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Dexterity)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_DEXTERITY">
+	<element name="Dexterity +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_DEXTERITY">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<requirements>[level:19]</requirements>
 		<description>
-			<p>Your Dexterity increases by 1.</p>
+			<p>Your Dexterity increases by 1, to a maximum of 30.</p>
 		</description>
 		<setters>
 			<set name="allow duplicate">true</set>
@@ -1376,11 +1306,11 @@
 			<stat name="dexterity:max" value="10" bonus="ability"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Constitution)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_CONSTITUTION">
+	<element name="Constitution +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_CONSTITUTION">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<description>
-			<p>Your Constitution increases by 1.</p>
+			<p>Your Constitution increases by 1, to a maximum of 30.</p>
 		</description>
 		<setters>
 			<set name="allow duplicate">true</set>
@@ -1390,11 +1320,11 @@
 			<stat name="constitution:max" value="10" bonus="ability"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Intelligence)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_INTELLIGENCE">
+	<element name="Intelligence +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_INTELLIGENCE">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<description>
-			<p>Your Intelligence increases by 1.</p>
+			<p>Your Intelligence increases by 1, to a maximum of 30.</p>
 		</description>
 		<setters>
 			<set name="allow duplicate">true</set>
@@ -1404,11 +1334,11 @@
 			<stat name="intelligence:max" value="10" bonus="ability"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Wisdom)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_WISDOM">
+	<element name="Wisdom +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_WISDOM">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<description>
-			<p>Your Wisdom increases by 1.</p>
+			<p>Your Wisdom increases by 1, to a maximum of 30.</p>
 		</description>
 		<setters>
 			<set name="allow duplicate">true</set>
@@ -1418,7 +1348,7 @@
 			<stat name="wisdom:max" value="10" bonus="ability"/>
 		</rules>
 	</element>
-	<element name="Ability Score Increase (Charisma)" type="Ability Score Improvement" source="Internal" id="ID_WOTC_PHB24_BOON_ASI_CHARISMA">
+	<element name="Charisma +1" type="Ability Score Improvement" source="Internal" id="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_BOON_CHARISMA">
 		<compendium display="false" />
 		<supports>Boon Ability Score Increase</supports>
 		<description>
