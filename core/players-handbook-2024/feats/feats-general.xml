@@ -1046,9 +1046,9 @@
 	<element name="Ritual Caster" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_RITUAL_CASTER">
 		<requirements>[level:4],([int:13]||[wis:13]||[cha:13])</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, Intelligence, Wisdom, or Charisma 13+, General Feat</prerequisite>
+		<prerequisite>Level 4+, Intelligence, Wisdom, or Charisma 13+</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+; Intelligence, Wisdom, or Charisma 13+)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+; Intelligence, Wisdom, or Charisma 13+)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b>  Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Ritual Spells.</i></b> Choose a number of level 1 spells equal to your Proficiency Bonus that have the Ritual tag. You always have those spells prepared, and you can cast them with any spell slots you have. The spells' spellcasting ability is the ability increased by this feat. Whenever your Proficiency Bonus increases thereafter, you can add an additional level 1 spell with the Ritual tag to the spells always prepared with this feature.</p>
@@ -1056,23 +1056,26 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase (Ritual Caster)" supports="Ritual Caster" />
-			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1" number="2" />
-			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1" level="5" />
-			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1" level="9" />
-			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1" level="13" />
-			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1" level="17" />
+			<select type="Feat Feature" name="Ability Score Increase (Ritual Caster)" supports="PHB24 Ritual Caster" />
+			<select type="Spell" name="1st Ritual Spell (Ritual Caster)" supports="Ritual,1" requirements="[proficiency:1]" />
+			<select type="Spell" name="2nd Ritual Spell (Ritual Caster)" supports="Ritual,1" requirements="[proficiency:2]" />
+			<select type="Spell" name="3rd Ritual Spell (Ritual Caster)" supports="Ritual,1" requirements="[proficiency:3]" />
+			<select type="Spell" name="4th Ritual Spell (Ritual Caster)" supports="Ritual,1" requirements="[proficiency:4]" />
+			<select type="Spell" name="5th Ritual Spell (Ritual Caster)" supports="Ritual,1" requirements="[proficiency:5]" />
+			<select type="Spell" name="6th Ritual Spell (Ritual Caster)" supports="Ritual,1" requirements="[proficiency:6]" />
+			<select type="Spell" name="7th Ritual Spell (Ritual Caster)" supports="Ritual,1" requirements="[proficiency:7]" />
+			<select type="Spell" name="8th Ritual Spell (Ritual Caster)" supports="Ritual,1" requirements="[proficiency:8]" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_RITUAL_CASTER_INTELLIGENCE">
 		<compendium display="false" />
-		<supports>Ritual Caster</supports>
+		<supports>PHB24 Ritual Caster</supports>
 		<description>
 			<p>Increase your Intelligence by 1, to a maximum of 20.</p>
 		</description>
-		<sheet alt="Ritual Caster">
-			<description>Choose {{proficiency}} level 1 spells that have the Ritual tag. You always have those spells prepared, and you can cast them with any spell slots you have. The spells' spellcasting ability is Intelligence. 
-			You can cast a Ritual spell that you have prepared using its regular casting time rather than the extended time for a Ritual. Doing so doesn't require a spell slot. Once you cast the spell in this way, you can't use this benefit again until you finish a Long Rest.</description>
+		<sheet alt="Ritual Caster" usage="1/Long Rest">
+			<description>You can cast a Ritual spell that you have prepared using its regular casting time rather than the extended time for a Ritual without expending a spell slot. &#13;
+			Intelligence is your spellcasting ability for this feat's spells.</description>
 		</sheet>
 		<rules>
 			<stat name="intelligence" value="1" alt="Ritual Caster" />
@@ -1080,13 +1083,13 @@
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_RITUAL_CASTER_WISDOM">
 		<compendium display="false" />
-		<supports>Ritual Caster</supports>
+		<supports>PHB24 Ritual Caster</supports>
 		<description>
 			<p>Increase your Wisdom by 1, to a maximum of 20.</p>
 		</description>
-		<sheet alt="Ritual Caster">
-			<description>Choose {{proficiency}} level 1 spells that have the Ritual tag. You always have those spells prepared, and you can cast them with any spell slots you have. The spells' spellcasting ability is Intelligence. 
-			You can cast a Ritual spell that you have prepared using its regular casting time rather than the extended time for a Ritual. Doing so doesn't require a spell slot. Once you cast the spell in this way, you can't use this benefit again until you finish a Long Rest.</description>
+		<sheet alt="Ritual Caster" usage="1/Long Rest">
+			<description>You can cast a Ritual spell that you have prepared using its regular casting time rather than the extended time for a Ritual without expending a spell slot. &#13;
+			Wisdom is your spellcasting ability for this feat's spells.</description>
 		</sheet>
 		<rules>
 			<stat name="wisdom" value="1" alt="Ritual Caster" />
@@ -1094,13 +1097,13 @@
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_RITUAL_CASTER_CHARISMA">
 		<compendium display="false" />
-		<supports>Ritual Caster</supports>
+		<supports>PHB24 Ritual Caster</supports>
 		<description>
 			<p>Increase your Charisma by 1, to a maximum of 20.</p>
 		</description>
-		<sheet alt="Ritual Caster">
-			<description>Choose {{proficiency}} level 1 spells that have the Ritual tag. You always have those spells prepared, and you can cast them with any spell slots you have. The spells' spellcasting ability is Intelligence. 
-			You can cast a Ritual spell that you have prepared using its regular casting time rather than the extended time for a Ritual. Doing so doesn't require a spell slot. Once you cast the spell in this way, you can't use this benefit again until you finish a Long Rest.</description>
+		<sheet alt="Ritual Caster" usage="1/Long Rest">
+			<description>You can cast a Ritual spell that you have prepared using its regular casting time rather than the extended time for a Ritual without expending a spell slot. &#13;
+			Charisma is your spellcasting ability for this feat's spells.</description>
 		</sheet>
 		<rules>
 			<stat name="charisma" value="1" alt="Ritual Caster" />
@@ -1110,111 +1113,89 @@
 	<element name="Sentinel" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SENTINEL">
 		<requirements>[level:4],([str:13]||[dex:13])</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, Strength or Dexterity 13+, General Feat</prerequisite>
+		<prerequisite>Level 4+, Strength or Dexterity 13+</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Guardian.</i></b> Immediately after a creature within 5 feet of you takes the Disengage action or hits a target other than you with an attack, you can make an Opportunity Attack against that creature.</p>
 			<p class="indent"><b><i>Halt.</i></b> When you hit a creature with an Opportunity Attack, the creature's Speed becomes 0 for the rest of the current turn.</p>
 		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Feat Feature" name="Ability Score Increase (Sentinel)" supports="Sentinel" />
-		</rules>
-	</element>
-	<element name="Strength" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SENTINEL_STRENGTH">
-		<compendium display="false" />
-		<supports>Sentinel</supports>
-		<description>
-			<p>Increase your Strength by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="Sentinel">
-			<description>Immediately after a creature within 5 feet of you takes the Disengage action or hits a target other than you with an attack, you can make an Opportunity Attack against that creature.
-			When you hit a creature with an Opportunity Attack, the creature's Speed becomes 0 for the rest of the current turn.</description>
+		<sheet action="Reaction">
+			<description>Immediately after a creature within 5ft. of you takes the Disengage action or hits a target other than you with an attack, you can make an Opportunity Attack against that creature. &#13;
+			Additionally, whenever you hit a creature with an Opportunity Attack, the creature's Speed becomes 0 for the rest of the current turn.</description>
 		</sheet>
 		<rules>
-			<stat name="strength" value="1" alt="Sentinel" />
-		</rules>
-	</element>
-	<element name="Dexterity" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SENTINEL_DEXTERITY">
-		<compendium display="false" />
-		<supports>Sentinel</supports>
-		<description>
-			<p>Increase your Dexterity by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="Sentinel">
-			<description>Immediately after a creature within 5 feet of you takes the Disengage action or hits a target other than you with an attack, you can make an Opportunity Attack against that creature.
-			When you hit a creature with an Opportunity Attack, the creature's Speed becomes 0 for the rest of the current turn.</description>
-		</sheet>
-		<rules>
-			<stat name="dexterity" value="1" alt="Sentinel" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Sentinel)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
 		</rules>
 	</element>
 	
-	<element name="Shadow-Touched" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SHADOW_TOUCHED">
+	<element name="Shadow-Touched" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SHADOWTOUCHED">
 		<requirements>[level:4]</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, General Feat</prerequisite>
+		<prerequisite>Level 4+</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+)</p>
 			<p>Your exposure to the Shadowfell's magic grants you the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b>  Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
-			<p class="indent"><b><i>Shadow Magic.</i></b> Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the Invisibility spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.</p>
+			<p class="indent"><b><i>Shadow Magic.</i></b> Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the <i>Invisibility</i> spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_INVISIBILITY" />
+			</div>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase (Shadow-Touched)" supports="Shadow Touched" />
+			<select type="Feat Feature" name="Ability Score Increase (Shadow-Touched)" supports="PHB24 Shadow-Touched" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_INVISIBILITY" />
-			<select type="Spell" name="Spell, Shadow-Touched" supports="1,(Illusion||Necromancy)" />
+			<select type="Spell" name="Spell (Shadow-Touched)" supports="1,(Illusion||Necromancy)" />
 		</rules>
 	</element>
-	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SHADOW_TOUCHED_INTELLIGENCE">
+	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SHADOWTOUCHED_INTELLIGENCE">
 		<compendium display="false" />
-		<supports>Shadow Touched</supports>
+		<supports>PHB24 Shadow-Touched</supports>
 		<description>
 			<p>Increase your Intelligence by 1, to a maximum of 20.</p>
 		</description>
 		<sheet alt="Shadow-Touched">
-			<description>Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the Invisibility spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Intelligence.</description>
+			<description>You can cast each of this feat’s spells without a spell slot once per Long Rest. You can also cast these spells using spell slots you have of the appropriate level. Your spellcasting ability for these spells is Intelligence.</description>
 		</sheet>
 		<rules>
 			<stat name="intelligence" value="1" alt="Shadow-Touched" />
 		</rules>
 	</element>
-	<element name="Wisdom" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SHADOW_TOUCHED_WISDOM">
+	<element name="Wisdom" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SHADOWTOUCHED_WISDOM">
 		<compendium display="false" />
-		<supports>Shadow Touched</supports>
+		<supports>PHB24 Shadow-Touched</supports>
 		<description>
 			<p>Increase your Wisdom by 1, to a maximum of 20.</p>
 		</description>
 		<sheet alt="Shadow-Touched">
-			<description>Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the Invisibility spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Wisdom.</description>
+			<description>You can cast each of this feat’s spells without a spell slot once per Long Rest. You can also cast these spells using spell slots you have of the appropriate level. Your spellcasting ability for these spells is Wisdom.</description>
 		</sheet>
 		<rules>
 			<stat name="wisdom" value="1" alt="Shadow-Touched" />
 		</rules>
 	</element>
-	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SHADOW_TOUCHED_CHARISMA">
+	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SHADOWTOUCHED_CHARISMA">
 		<compendium display="false" />
-		<supports>Shadow Touched</supports>
+		<supports>PHB24 Shadow-Touched</supports>
 		<description>
 			<p>Increase your Charisma by 1, to a maximum of 20.</p>
 		</description>
-		<sheet alt="Spell Sniper">
-			<description>Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the Invisibility spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Charisma.</description>
+		<sheet alt="Shadow-Touched">
+			<description>You can cast each of this feat’s spells without a spell slot once per Long Rest. You can also cast these spells using spell slots you have of the appropriate level. Your spellcasting ability for these spells is Charisma.</description>
 		</sheet>
 		<rules>
-			<stat name="charisma" value="1" alt="Spell Sniper" />
+			<stat name="charisma" value="1" alt="Shadow-Touched" />
 		</rules>
 	</element>
 
 	<element name="Sharpshooter" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SHARPSHOOTER">
 		<requirements>[level:4],[dex:13]</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, Dexterity 13+, General Feat</prerequisite>
+		<prerequisite>Level 4+, Dexterity 13+</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+, Dexterity 13+)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+, Dexterity 13+)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Dexterity score by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Bypass Cover.</i></b> Your ranged attacks with weapons ignore Half Cover and Three-Quarters Cover.</p>
@@ -1222,7 +1203,7 @@
 			<p class="indent"><b><i>Long Shots.</i></b> Attacking at long range doesn't impose Disadvantage on your attack rolls with Ranged weapons.</p>
 		</description>
 		<sheet>
-			<description>Your ranged attacks with weapons ignore Half Cover and Three-Quarters Cover. Being within 5ft of an enemy doesn't impose Disadvantage on your attack rolls with Ranged weapons. Attacking at long range doesn't impose Disadvantage on your attack rolls with Ranged weapons.</description>
+			<description>Your gain the following benefits, when making ranged weapon attacks: Being within 5ft. of an enemy or attacking at long range doesn't impose Disadvantage; you can also ignore Half Cover and Three-Quarters Cover.</description>
 		</sheet>
 		<rules>
 			<stat name="dexterity" value="1" alt="Sharpshooter" />
@@ -1232,53 +1213,51 @@
 	<element name="Shield Master" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SHIELD_MASTER">
 		<requirements>[level:4],ID_WOTC_PHB24_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, Shield Training, General Feat</prerequisite>
+		<prerequisite>Level 4+, Shield Training</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+, Shield Training)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+, Shield Training)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Strength score by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Shield Bash.</i></b> If you attack a creature within 5 feet of you as part of the Attack action and hit with a Melee weapon, you can immediately bash the target with your Shield if it's equipped, forcing the target to make a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, you either push the target 5 feet from you or cause it to have the Prone condition (your choice). You can use this benefit only once on each of your turns.</p>
 			<p class="indent"><b><i>Interpose Shield.</i></b> If you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can take a Reaction to take no damage if you succeed on the saving throw and are holding a Shield.</p>
 		</description>
-		<sheet>
-			<description>If, as part of the Attack action, you hit a creature within 5ft of you with a Melee weapon, you can immediately bash the target with your Shield if it's equipped, forcing the target to make a DC{{shield:bash:dc}} Strength saving throw. On a failed save, you either push the target 5ft from you or cause it to have the Prone condition (your choice). You can use this benefit only once on each of your turns.
-			If you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can take a Reaction to take no damage if you succeed on the saving throw and are holding a Shield.</description>
+		<sheet usage="1/Turn">
+			<description>When you hit a creature within 5ft of you with a Melee weapon as part of the Attack action, you can immediately bash the target with your Shield if it's equipped, forcing the target to make a DC{{shield master:dc}} Strength saving throw. On a failed save, you either push the target 5ft. from you or cause it to have the Prone condition. &#13;
+			Additionally, if you succeed on a Dexterity saving throw to take only half damage while holding a Shield, you can use a Reaction to take no damage instead.</description>
 		</sheet>
 		<rules>
 			<stat name="strength" value="1" alt="Shield Master" />
-			<stat name="shield:bash:dc" value="8" />
-			<stat name="shield:bash:dc" value="proficiency" />
-			<stat name="shield:bash:dc" value="strength:modifier" />
+			<stat name="shield master:dc" value="8" bonus="base" />
+			<stat name="shield master:dc" value="proficiency" bonus="proficiency" />
+			<stat name="shield master:dc" value="strength:modifier" bonus="ability" />
 		</rules>
 	</element>
 	
 	<element name="Skill Expert" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKILL_EXPERT">
 		<requirements>[level:4]</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, General Feat</prerequisite>
+		<prerequisite>Level 4+</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase one ability score of your choice by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Skill Proficiency.</i></b> You gain proficiency in one skill of your choice.</p>
 			<p class="indent"><b><i>Expertise.</i></b> Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill.</p>
 		</description>
-		<sheet>
-			<description>You gain proficiency in one skill of your choice. You gain Expertise with one skill in which you have proficiency.</description>
-		</sheet>
+		<sheet display="false" />
 		<rules>
 			<select type="Ability Score Improvement" name="Ability Score Increase (Skill Expert)" supports="Feat Ability Score Increase" />
-			<select type="Proficiency" name="Skill Proficiency (Skill Expert)" supports="ID_PROFICIENCY_SKILL" />
-			<select type="Proficiency" name="Expertise (Skill Expert)" supports="ID_INTERNAL_SUPPORT_EXPERTISE"/>
+			<select type="Proficiency" name="Skill Proficiency (Skill Expert)" supports="Skill" />
+			<select type="Proficiency" name="Expertise (Skill Expert)" supports="Expertise"/>
 		</rules>
 	</element>
 
 	<element name="Skulker" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SKULKER">
 		<requirements>[level:4],[dex:13]</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, Dexterity 13+, General Feat</prerequisite>
+		<prerequisite>Level 4+, Dexterity 13+</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+, Dexterity 13+)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+, Dexterity 13+)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Dexterity by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Blindsight.</i></b> You have Blindsight with a range of 10 feet.</p>
@@ -1286,7 +1265,7 @@
 			<p class="indent"><b><i>Sniper.</i></b> If you make an attack roll while hidden and the roll misses, making the attack roll doesn't reveal your location.</p>
 		</description>
 		<sheet>
-			<description>You gain you Advantage on any Dexterity (Stealth) check you make as part of the Hide action during combat. If you make an attack roll while hidden and the roll misses, making the attack roll doesn't reveal your location.</description>
+			<description>You have Advantage on any Dexterity (Stealth) check you make as part of the Hide action during combat. Additionally while hidden, you don't reveal yourself when you miss an attack roll.</description>
 		</sheet>
 		<rules>
 			<stat name="dexterity" value="1" alt="Skulker" />
@@ -1298,159 +1277,75 @@
 	<element name="Slasher" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SLASHER">
 		<requirements>[level:4]</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, General Feat</prerequisite>
+		<prerequisite>Level 4+</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Hamstring.</i></b> Once per turn when you hit a creature with an attack that deals Slashing damage, you can reduce the Speed of that creature by 10 feet until the start of your next turn.</p>
 			<p class="indent"><b><i>Enhanced Critical.</i></b> When you score a Critical Hit that deals Slashing damage to a creature, it has Disadvantage on attack rolls until the start of your next turn.</p>
 		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Feat Feature" name="Ability Score Increase (Slasher)" supports="Slasher" />
-		</rules>
-	</element>
-	<element name="Strength" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SLASHER_STRENGTH">
-		<compendium display="false" />
-		<supports>Slasher</supports>
-		<description>
-			<p>Increase your Strength by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="Slasher">
-			<description>Once per turn when you hit a creature with an attack that deals Slashing damage, you can reduce the Speed of that creature by 10ft until the start of your next turn.
-			When you score a Critical Hit that deals Slashing damage to a creature, it has Disadvantage on attack rolls until the start of your next turn.</description>
+		<sheet usage="1/Turn">
+			<description>When you hit a creature with an attack that deals Slashing damage, you can reduce the Speed of that creature by 10ft. until the start of your next turn. &#13;
+			Additionally, whenever you score a Critical Hit that deals Slashing damage to a creature, it has Disadvantage on attack rolls until the start of your next turn.</description>
 		</sheet>
 		<rules>
-			<stat name="strength" value="1" alt="Slasher" />
-		</rules>
-	</element>
-	<element name="Dexterity" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SLASHER_DEXTERITY">
-		<compendium display="false" />
-		<supports>Slasher</supports>
-		<description>
-			<p>Increase your Dexterity by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="Slasher">
-			<description>Once per turn when you hit a creature with an attack that deals Slashing damage, you can reduce the Speed of that creature by 10ft until the start of your next turn.
-			When you score a Critical Hit that deals Slashing damage to a creature, it has Disadvantage on attack rolls until the start of your next turn.</description>
-		</sheet>
-		<rules>
-			<stat name="dexterity" value="1" alt="Slasher" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Slasher)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
 		</rules>
 	</element>
 
 	<element name="Speedy" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SPEEDY">
 		<requirements>[level:4],([dex:13]||[con:13])</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, Dexterity or Constitution 13+, General Feat</prerequisite>
+		<prerequisite>Level 4+, Dexterity or Constitution 13+</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+, Dexterity or Constitution 13+)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+, Dexterity or Constitution 13+)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Dexterity or Constitution score by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Speed Increase.</i></b> Your Speed increases by 10 feet.</p>
 			<p class="indent"><b><i>Dash over Difficult Terrain.</i></b> When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn.</p>
 			<p class="indent"><b><i>Agile Movement.</i></b> Opportunity Attacks have Disadvantage against you.</p>
 		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Feat Feature" name="Ability Score Increase (Speedy)" supports="Speedy" />
-			<stat name="speed" value="10" />
-		</rules>
-	</element>
-	<element name="Dexterity" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SPEEDY_DEXTERITY">
-		<compendium display="false" />
-		<supports>Speedy</supports>
-		<description>
-			<p>Increase your Dexterity by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="Speedy">
-			<description>When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn. Opportunity Attacks have Disadvantage against you.</description>
+		<sheet>
+			<description>When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn. Additionally, Opportunity Attacks have Disadvantage against you.</description>
 		</sheet>
 		<rules>
-			<stat name="dexterity" value="1" alt="Speedy" />
-		</rules>
-	</element>
-	<element name="Constitution" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SPEEDY_CONSTITUTION">
-		<compendium display="false" />
-		<supports>Speedy</supports>
-		<description>
-			<p>Increase your Constitution by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="Speedy">
-			<description>When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn. Opportunity Attacks have Disadvantage against you.</description>
-		</sheet>
-		<rules>
-			<stat name="constitution" value="1" alt="Speedy" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Slasher)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION" />
+			<stat name="speed" value="10" bonus="speedy" alt="Speedy" />
 		</rules>
 	</element>
 
 	<element name="Spell Sniper" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_SPELLSNIPER">
-		<requirements>[level:4],(ID_WOTC_PHB24_CLASS_FEATURE_BARD_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_DRUID_SPELLCASTING||ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_SPELLCASTING||ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_PACT_MAGIC||ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELLCASTING)</requirements>
+		<requirements>[level:4], (ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE||ID_INTERNAL_GRANTS_PACT_MAGIC_FEATURE)</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, Spellcasting or Pact Magic Feature, General Feat</prerequisite>
+		<prerequisite>Level 4+, Spellcasting or Pact Magic Feature</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Bypass Cover.</i></b> Your attack rolls for spells ignore Half Cover and Three-Quarters Cover.</p>
 			<p class="indent"><b><i>Casting in Melee.</i></b> Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with spells.</p>
 			<p class="indent"><b><i>Increased Range.</i></b> When you cast a spell that has a range of at least 10 feet and requires you to make an attack roll, you can increase the spell's range by 60 feet.</p>
 		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Feat Feature" name="Ability Score Increase (Spell Sniper)" supports="Spell Sniper" />
-		</rules>
-	</element>
-	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SPELLSNIPER_INTELLIGENCE">
-		<compendium display="false" />
-		<supports>Spell Sniper</supports>
-		<description>
-			<p>Increase your Intelligence by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="Spell Sniper">
-			<description>Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with spells. Your attack rolls for spells ignore Half Cover and Three-Quarters Cover. When you cast a spell that has a range of at least 10ft and requires you to make an attack roll, you can increase the spell's range by 60ft.</description>
+		<sheet>
+			<description>
+			Your spell attacks gain following benefits: Being within 5ft. of an enemy doesn't impose Disadvantage; you can also ignore Half Cover and Three-Quarters Cover. &#13;
+			Additionally, when you cast a spell that has a range of at least 10ft. and requires you to make an attack roll, you can increase the spell's range by 60ft.</description>
 		</sheet>
 		<rules>
-			<stat name="intelligence" value="1" alt="Spell Sniper" />
-		</rules>
-	</element>
-	<element name="Wisdom" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SPELLSNIPER_WISDOM">
-		<compendium display="false" />
-		<supports>Spell Sniper</supports>
-		<description>
-			<p>Increase your Wisdom by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="Spell Sniper">
-			<description>Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with spells. Your attack rolls for spells ignore Half Cover and Three-Quarters Cover. When you cast a spell that has a range of at least 10ft and requires you to make an attack roll, you can increase the spell's range by 60ft.</description>
-		</sheet>
-		<rules>
-			<stat name="wisdom" value="1" alt="Spell Sniper" />
-		</rules>
-	</element>
-	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_SPELLSNIPER_CHARISMA">
-		<compendium display="false" />
-		<supports>Spell Sniper</supports>
-		<description>
-			<p>Increase your Charisma by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="Spell Sniper">
-			<description>Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with spells. Your attack rolls for spells ignore Half Cover and Three-Quarters Cover. When you cast a spell that has a range of at least 10ft and requires you to make an attack roll, you can increase the spell's range by 60ft.</description>
-		</sheet>
-		<rules>
-			<stat name="charisma" value="1" alt="Spell Sniper" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Spell Sniper)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
 		</rules>
 	</element>
 
 	<element name="Telekinetic" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_TELEKINETIC">
 		<requirements>[level:4]</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, General Feat</prerequisite>
+		<prerequisite>Level 4+</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+)</p>
 			<p>You gain the following benefits.</p>
-			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase one ability score of your choice by 1, to a maximum of 20.</p>
-			<p class="indent"><b><i>Minor Telekinesis.</i></b> You learn the <i>Mage Hand</i> spell. You can cast it without Verbal or Somatic components, you can make the spectral hand invisible, and its range increases by 30 feet when you cast it. The spell's spellcasting ability is the ability increased by this feat.</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
+			<p class="indent"><b><i>Minor Telekinesis.</i></b> You learn the <i>Mage Hand</i> spell. You can cast it without Verbal or Somatic components, you can make the spectral hand invisible, and its range and the distance it can be away from you both increase by 30 feet when you cast it. The spell's spellcasting ability is the ability increased by this feat.</p>
 			<p class="indent"><b><i>Telekinetic Shove.</i></b> As a Bonus Action, you can telekinetically shove one creature you can see within 30 feet of yourself. When you do so, the target must succeed on a Strength saving throw (DC 8 plus the ability modifier of the score increased by this feat and your Proficiency Bonus) or be moved 5 feet toward or away from you.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_SPELL_MAGE_HAND" />
@@ -1458,64 +1353,64 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase (Telekinetic)" supports="Telekinetic" />
+			<select type="Feat Feature" name="Ability Score Increase (Telekinetic)" supports="PHB24 Telekinetic" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_MAGE_HAND" />
-			<stat name="telekinetic:mage hand:dc" value="8" />
-			<stat name="telekinetic:mage hand:dc" value="proficiency" />
+			<stat name="telekinetic:dc" value="8" bonus="base" />
+			<stat name="telekinetic:dc" value="proficiency" bonus="proficiency" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEKINETIC_INTELLIGENCE">
 		<compendium display="false" />
-		<supports>Telekinetic</supports>
+		<supports>PHB24 Telekinetic</supports>
 		<description>
 			<p>Increase your Intelligence by 1, to a maximum of 20.</p>
 		</description>
-		<sheet alt="Telekinetic">
-			<description>You learn the mage hand cantrip, can cast it without verbal or somatic components, and you can make the spectral hand invisible. If you already know this spell, its range increases by 30 feet when you cast it. Your spellcasting ability for this spell is Intelligence.  
-			As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a DC{{telekinetic:mage hand:dc}} Strength save or be moved 5 feet toward you or away from you.</description>
+		<sheet alt="Telekinetic" action="Bonus Action">
+			<description>You can try to telekinetically shove one creature you can see within 30ft. of you. When you do so, the target must succeed on a DC{{telekinetic:dc}} Strength save or be moved 5ft. toward you or away from you.&#13;
+			Additionally, you know the Mage Hand cantrip, can cast it without Verbal or Somatic components, you can make the spectral hand Invisible, and its range and the distance it can be away from you both increase by 30ft. when you cast it. Your spellcasting ability for this spell is Intelligence.</description>
 		</sheet>
 		<rules>
 			<stat name="intelligence" value="1" alt="Telekinetic" />
-			<stat name="telekinetic:mage hand:dc" value="intelligence:modifier" />
+			<stat name="telekinetic:dc" value="intelligence:modifier" bonus="ability" />
 		</rules>
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEKINETIC_WISDOM">
 		<compendium display="false" />
-		<supports>Telekinetic</supports>
+		<supports>PHB24 Telekinetic</supports>
 		<description>
 			<p>Increase your Wisdom by 1, to a maximum of 20.</p>
 		</description>
-		<sheet alt="Telekinetic">
-			<description>You learn the mage hand cantrip, can cast it without verbal or somatic components, and you can make the spectral hand invisible. If you already know this spell, its range increases by 30 feet when you cast it. Your spellcasting ability for this spell is Wisdom.  
-			As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a DC{{telekinetic:mage hand:dc}} Strength save or be moved 5 feet toward you or away from you.</description>
+		<sheet alt="Telekinetic" action="Bonus Action">
+			<description>You can try to telekinetically shove one creature you can see within 30ft. of you. When you do so, the target must succeed on a DC{{telekinetic:dc}} Strength save or be moved 5ft. toward you or away from you.&#13;
+			Additionally, you know the Mage Hand cantrip, can cast it without Verbal or Somatic components, you can make the spectral hand Invisible, and its range and the distance it can be away from you both increase by 30ft. when you cast it. Your spellcasting ability for this spell is Wisdom.</description>
 		</sheet>
 		<rules>
 			<stat name="wisdom" value="1" alt="Telekinetic" />
-			<stat name="telekinetic:mage hand:dc" value="wisdom:modifier" />
+			<stat name="telekinetic:dc" value="wisdom:modifier" bonus="ability" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEKINETIC_CHARISMA">
 		<compendium display="false" />
-		<supports>Telekinetic</supports>
+		<supports>PHB24 Telekinetic</supports>
 		<description>
 			<p>Increase your Charisma by 1, to a maximum of 20.</p>
 		</description>
-		<sheet alt="Telekinetic">
-			<description>You learn the mage hand cantrip, can cast it without verbal or somatic components, and you can make the spectral hand invisible. If you already know this spell, its range increases by 30 feet when you cast it. Your spellcasting ability for this spell is Charisma.  
-			As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a DC{{telekinetic:mage hand:dc}} Strength save or be moved 5 feet toward you or away from you.</description>
+		<sheet alt="Telekinetic" action="Bonus Action">
+			<description>You can try to telekinetically shove one creature you can see within 30ft. of you. When you do so, the target must succeed on a DC{{telekinetic:dc}} Strength save or be moved 5ft. toward you or away from you.&#13;
+			Additionally, you know the Mage Hand cantrip, can cast it without Verbal or Somatic components, you can make the spectral hand Invisible, and its range and the distance it can be away from you both increase by 30ft. when you cast it. Your spellcasting ability for this spell is Charisma.</description>
 		</sheet>
 		<rules>
 			<stat name="charisma" value="1" alt="Telekinetic" />
-			<stat name="telekinetic:mage hand:dc" value="charisma:modifier" />
+			<stat name="telekinetic:dc" value="charisma:modifier" bonus="ability" />
 		</rules>
 	</element>
 
 	<element name="Telepathic" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_TELEPATHIC">
 		<requirements>[level:4]</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, General Feat</prerequisite>
+		<prerequisite>Level 4+</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Telepathic Utterance.</i></b> You can speak telepathically to any creature you can see within 60 feet of yourself. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically.</p>
@@ -1526,19 +1421,19 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase (Telepathic)" supports="Telepathic" />
+			<select type="Feat Feature" name="Ability Score Increase (Telepathic)" supports="PHB24 Telepathic" />
 			<grant type="Spell" id="ID_WOTC_PHB24_SPELL_DETECT_THOUGHTS" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEPATHIC_INTELLIGENCE">
 		<compendium display="false" />
-		<supports>Telepathic</supports>
+		<supports>PHB24 Telepathic</supports>
 		<description>
 			<p>Increase your Intelligence by 1, to a maximum of 20.</p>
 		</description>
 		<sheet alt="Telepathic">
-			<description>You can speak telepathically to any creature you can see within 60 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically. 
-			You can cast the detect thoughts spell, requiring no spell slot or components, and you must finish a long rest before you can cast this it this way again. Your spellcasting ability for this spell is Intelligence. If you have spell slots of 2nd level or higher, you can cast this spell with them.</description>
+			<description>Once per Long Rest, you can cast the Detect Thoughts spell, without spell slot or components. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for this spell is Intelligence. &#13;
+			Additionally, you can speak telepathically to any creature you can see within 60ft. of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. This effect doesn't give the creature the ability to respond to you telepathically.</description>
 		</sheet>
 		<rules>
 			<stat name="intelligence" value="1" alt="Telepathic" />
@@ -1546,13 +1441,13 @@
 	</element>
 	<element name="Wisdom" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEPATHIC_WISDOM">
 		<compendium display="false" />
-		<supports>Telepathic</supports>
+		<supports>PHB24 Telepathic</supports>
 		<description>
 			<p>Increase your Wisdom by 1, to a maximum of 20.</p>
 		</description>
 		<sheet alt="Telepathic">
-			<description>You can speak telepathically to any creature you can see within 60 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically. 
-			You can cast the detect thoughts spell, requiring no spell slot or components, and you must finish a long rest before you can cast this it this way again. Your spellcasting ability for this spell is Wisdom. If you have spell slots of 2nd level or higher, you can cast this spell with them.</description>
+			<description>Once per Long Rest, you can cast the Detect Thoughts spell, without spell slot or components. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for this spell is Wisdom. &#13;
+			Additionally, you can speak telepathically to any creature you can see within 60ft. of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. This effect doesn't give the creature the ability to respond to you telepathically.</description>
 		</sheet>
 		<rules>
 			<stat name="wisdom" value="1" alt="Telepathic" />
@@ -1560,13 +1455,13 @@
 	</element>
 	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_TELEPATHIC_CHARISMA">
 		<compendium display="false" />
-		<supports>Telepathic</supports>
+		<supports>PHB24 Telepathic</supports>
 		<description>
 			<p>Increase your Charisma by 1, to a maximum of 20.</p>
 		</description>
 		<sheet alt="Telepathic">
-			<description>You can speak telepathically to any creature you can see within 60 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically. 
-			You can cast the detect thoughts spell, requiring no spell slot or components, and you must finish a long rest before you can cast this it this way again. Your spellcasting ability for this spell is Charisma. If you have spell slots of 2nd level or higher, you can cast this spell with them.</description>
+			<description>Once per Long Rest, you can cast the Detect Thoughts spell, without spell slot or components. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for this spell is Charisma. &#13;
+			Additionally, you can speak telepathically to any creature you can see within 60ft. of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. This effect doesn't give the creature the ability to respond to you telepathically.</description>
 		</sheet>
 		<rules>
 			<stat name="charisma" value="1" alt="Telepathic" />
@@ -1574,110 +1469,52 @@
 	</element>
 
 	<element name="War Caster" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_WAR_CASTER">
-		<requirements>[level:4],(ID_WOTC_PHB24_CLASS_FEATURE_BARD_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_CLERIC_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_DRUID_SPELLCASTING||ID_WOTC_PHB24_ARCHETYPE_FEATURE_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_SPELLCASTING||ID_WOTC_PHB24_ARCHETYPE_FEATURE_ROGUE_ARCANE_TRICKSTER_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_WARLOCK_PACT_MAGIC||ID_WOTC_PHB24_CLASS_FEATURE_SORCERER_SPELLCASTING||ID_WOTC_PHB24_CLASS_FEATURE_WIZARD_SPELLCASTING)</requirements>
+		<requirements>[level:4], (ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE||ID_INTERNAL_GRANTS_PACT_MAGIC_FEATURE)</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, Spellcasting or Pact Magic Feature, General Feat</prerequisite>
+		<prerequisite>Level 4+, Spellcasting or Pact Magic Feature</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+, Spellcasting or Pact Magic Feature)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Concentration.</i></b> You have Advantage on Constitution saving throws that you make to maintain Concentration.</p>
 			<p class="indent"><b><i>Reactive Spell.</i></b> When a creature provokes an Opportunity Attack from you by leaving your reach, you can take a Reaction to cast a spell at the creature rather than making an Opportunity Attack. The spell must have a casting time of one action and must target only that creature.</p>
 			<p class="indent"><b><i>Somatic Components.</i></b> You can perform the Somatic components of spells even when you have weapons or a Shield in one or both hands.</p>
 		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Feat Feature" name="Ability Score Increase (War Caster)" supports="War Caster" />
-		</rules>
-	</element>
-	<element name="Intelligence" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_WAR_CASTER_INTELLIGENCE">
-		<compendium display="false" />
-		<supports>War Caster</supports>
-		<description>
-			<p>Increase your Intelligence by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="War Caster">
-			<description>You have advantage on Constitution saving throws that you make to maintain Concentration.
-			You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.
-			When a creature provokes an Opportunity Attack from you, you can use your Reaction to cast a spell at the creature, rather than making an Opportunity Attack. The spell must have a casting time of 1 action and must target only that creature.</description>
+		<sheet>
+			<description>You have Advantage on saving throws to maintain Concentration. &#13;
+			You can perform the Somatic components of spells even when you have weapons or a Shield in one or both hands. &#13;
+			When a creature provokes an Opportunity Attack from you by leaving your reach, cast a spell at the creature as a Reaction, rather than making an Opportunity Attack. The spell must have a casting time of 1 action and must target only that creature.</description>
 		</sheet>
 		<rules>
-			<stat name="intelligence" value="1" alt="War Caster" />
-		</rules>
-	</element>
-	<element name="Wisdom" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_WAR_CASTER_WISDOM">
-		<compendium display="false" />
-		<supports>War Caster</supports>
-		<description>
-			<p>Increase your Wisdom by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="War Caster">
-			<description>You have advantage on Constitution saving throws that you make to maintain Concentration.
-			You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.
-			When a creature provokes an Opportunity Attack from you, you can use your Reaction to cast a spell at the creature, rather than making an Opportunity Attack. The spell must have a casting time of 1 action and must target only that creature.</description>
-		</sheet>
-		<rules>
-			<stat name="wisdom" value="1" alt="War Caster" />
-		</rules>
-	</element>
-	<element name="Charisma" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_WAR_CASTER_CHARISMA">
-		<compendium display="false" />
-		<supports>War Caster</supports>
-		<description>
-			<p>Increase your Charisma by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="War Caster">
-			<description>You have advantage on Constitution saving throws that you make to maintain Concentration.
-			You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.
-			When a creature provokes an Opportunity Attack from you, you can use your Reaction to cast a spell at the creature, rather than making an Opportunity Attack. The spell must have a casting time of 1 action and must target only that creature.</description>
-		</sheet>
-		<rules>
-			<stat name="charisma" value="1" alt="War Caster" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (War Caster)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_INTELLIGENCE|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_WISDOM|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CHARISMA" />
 		</rules>
 	</element>
 
 	<element name="Weapon Master" type="Feat" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_WEAPON_MASTER">
 		<requirements>[level:4]</requirements>
 		<supports>General</supports>
-		<prerequisite>Level 4+, General Feat</prerequisite>
+		<prerequisite>Level 4+</prerequisite>
 		<description>
-			<p><em>General Feat (Prerequisite: Level 4+)</em></p>
+			<p class="flavor">General Feat (Prerequisite: Level 4+)</p>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p>
 			<p class="indent"><b><i>Mastery Property.</i></b> Your training with weapons allows you to use the mastery property of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind.</p>
+			<p><b>Note:</b> Selection for Mastery appears under the <u>CLASS</u> sub-menu.</p>
 		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Weapon Master)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY" />
+			<grant type="Class Feature" id="ID_WOTC_PHB24_CLASS_FEATURE_WEAPON_MASTER" />
+		</rules>
+	</element>
+	<!-- sub-feature for the Feat, which allows selected element to appear with the sheet description of the Feat -->
+	<element name="Weapon Master" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_WEAPON_MASTER">
+		<compendium display="false" />
 		<sheet>
-			<description>You can use the mastery property of one kind of Simple or Martial weapon  you are proficient with. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind.</description>
+			<description>You can use the mastery property of one kind of Simple or Martial weapon you are proficient with. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind.</description>
 		</sheet>
 		<rules>
-			<select type="Feat Feature" name="Ability Score Increase (Weapon Master)" supports="Weapon Master" />
-			<select type="Class Feature" name="Weapon Mastery" supports="Weapon Mastery"/>
-		</rules>
-	</element>
-	<element name="Strength" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_WEAPON_MASTER_STRENGTH">
-		<compendium display="false" />
-		<supports>Weapon Master</supports>
-		<description>
-			<p>Increase your Strength by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="Weapon Master">
-			<description>You can use the mastery property of one kind of Simple or Martial weapon  you are proficient with. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind.</description>
-		</sheet>
-		<rules>
-			<stat name="strength" value="1" alt="Weapon Master" />
-		</rules>
-	</element>
-	<element name="Dexterity" type="Feat Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_FEAT_FEATURE_WEAPON_MASTER_DEXTERITY">
-		<compendium display="false" />
-		<supports>Weapon Master</supports>
-		<description>
-			<p>Increase your Dexterity by 1, to a maximum of 20.</p>
-		</description>
-		<sheet alt="Weapon Master">
-			<description>You can use the mastery property of one kind of Simple or Martial weapon  you are proficient with. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind.</description>
-		</sheet>
-		<rules>
-			<stat name="dexterity" value="1" alt="Weapon Master" />
+			<select type="Class Feature" name="Weapon Mastery (Feat)" supports="Weapon Mastery"/>
 		</rules>
 	</element>
 
