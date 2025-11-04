@@ -361,33 +361,33 @@
 		</description>
 		<sheet display="false" />
 	</element>
-	<element name="Daze (Cost: 1d6)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_DAZE">
+	<element name="Daze (Cost: 2d6)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_DAZE">
 		<supports>PHB24 Cunning Strike Daze</supports>
 		<compendium display="false" />
 		<description>
 			<p>The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.</p>
 		</description>
-		<sheet alt="Daze (1d6)">
+		<sheet alt="Daze (2d6)">
 			<description>Target must succeed on a DC{{cunning strike:dc}} Constitution saving throw or can only move, take an action, or a Bonus Action on its next turn.</description>
 		</sheet>
 	</element>
-	<element name="Knock Out (Cost: 1d6)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_KNOCK_OUT">
+	<element name="Knock Out (Cost: 6d6)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_KNOCK_OUT">
 		<supports>PHB24 Cunning Strike Knock Out</supports>
 		<compendium display="false" />
 		<description>
 			<p>The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.</p>
 		</description>
-		<sheet alt="Knock Out (1d6)">
+		<sheet alt="Knock Out (6d6)">
 			<description>Target must succeed on a DC{{cunning strike:dc}} Constitution saving throw or become Unconscious for 1 minute or until it takes any damage.</description>
 		</sheet>
 	</element>
-	<element name="Obscure (Cost: 1d6)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_OBSCURE">
+	<element name="Obscure (Cost: 3d6)" type="Class Feature" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_CLASS_FEATURE_ROGUE_DEVIOUS_STRIKES_OBSCURE">
 		<supports>PHB24 Cunning Strike Obscure</supports>
 		<compendium display="false" />
 		<description>
 			<p>The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.</p>
 		</description>
-		<sheet alt="Obscure (1d6)">
+		<sheet alt="Obscure (3d6)">
 			<description>Target must succeed on a DC{{cunning strike:dc}} Dexterity saving throw or become Blinded until the end of its next turn.</description>
 		</sheet>
 	</element>
