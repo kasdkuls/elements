@@ -450,9 +450,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="tough:hp" value="level" />
-			<stat name="tough:hp" value="level" />
-			<stat name="hp" value="tough:hp" bonus="tough" />
+			<stat name="hp" value="level" bonus="primary"/>
+			<stat name="hp" value="level" bonus="secondary"/>
 		</rules>
 	</element>
 
