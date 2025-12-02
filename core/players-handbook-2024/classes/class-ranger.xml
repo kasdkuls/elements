@@ -157,6 +157,7 @@
 			<list>Ranger</list>
 		</spellcasting>
 		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_FEATURE" />
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
 			<stat name="ranger:spellcasting:slots:1" value="2" level="1" />
 			<stat name="ranger:spellcasting:slots:1" value="1" level="3" />
@@ -241,6 +242,7 @@
 		</description>
 		<sheet display="false"/>
 		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_FIGHTING_STYLE_FEATURE" />
 			<select type="Feat" name="Fighting Style (Ranger 2)" supports="Fighting Style||PHB24 Druidic Warrior Fighting Style" />
 		</rules>
 	</element>
