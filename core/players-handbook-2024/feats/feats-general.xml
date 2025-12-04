@@ -1310,7 +1310,7 @@
 			<description>When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn. Additionally, Opportunity Attacks have Disadvantage against you.</description>
 		</sheet>
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase (Slasher)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_STRENGTH|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Speedy)" supports="ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_DEXTERITY|ID_INTERNAL_ABILITY_SCORE_IMPROVEMENT_FEAT_CONSTITUTION" />
 			<stat name="speed" value="10" bonus="speedy" alt="Speedy" />
 		</rules>
 	</element>
