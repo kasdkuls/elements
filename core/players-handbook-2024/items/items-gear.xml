@@ -23,7 +23,7 @@
 
 	<element name="Alchemist's Fire" type="Item" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ITEM_ALCHEMISTS_FIRE">
 		<description>
-			<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take ld4 Fire damage and start burning.</p>
+			<p>When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start burning.</p>
 			<div class="reference">
 				<div element="ID_WOTC_PHB24_RULE_BURNING" />
 			</div>
@@ -594,7 +594,7 @@
 
 	<element name="Hunting Trap" type="Item" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ITEM_HUNTING_TRAP">
 		<description>
-			<p>As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take ld4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature.</p>
+			<p>As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature.</p>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>
@@ -815,7 +815,7 @@
 
 	<element name="Poison, Basic" type="Item" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_ITEM_POISON_BASIC">
 		<description>
-			<p>As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra ld4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.</p>
+			<p>As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first.</p>
 		</description>
 		<setters>
 			<set name="category">Adventuring Gear</set>
